@@ -1,18 +1,16 @@
 ---
 layout: member
 category: staff
-title: Researcher Name
+title: Vlado Menkovski 
 image: researcher.png
-role: Lab Director
-permalink: 'team/researcher-name'
+role: Group Lead
+permalink: 'team/vlado-menkovski'
 social:
-    twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.fr/
+    google-scholar: https://scholar.google.com/citations?user=2s9HUEMAAAAJ&hl=en
     github: https://github.com/
     website:
     orcid: https://orcid.org/
-    research-gate: https://www.researchgate.net/
 education:
  - Education
 ---
