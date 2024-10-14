@@ -6,14 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Research Lab
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: ""
-url: ""
+title: Machine Learning for Physical Sciences Lab 
+email: sciml-tue@gmail.com
+description: 
+This is the website of the Machine Learning for Physical Sciences at Eindhoven University of Technology. Our focus is on data driven simulation with deep generative models and scientific machine learning. 
+
+baseurl: "sciml-tue.github.io"
+url: "sciml-tue.github.io"
 
 include:
   - .htaccess
