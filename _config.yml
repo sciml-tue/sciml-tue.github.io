@@ -8,8 +8,7 @@
 # Site settings
 title: Machine Learning for Physical Sciences Lab 
 email: sciml-tue@gmail.com
-description: 
-This is the website of the Machine Learning for Physical Sciences at Eindhoven University of Technology. Our focus is on data driven simulation with deep generative models and scientific machine learning. 
+description: This is the website of the Machine Learning for Physical Sciences at Eindhoven University of Technology. Our focus is on data driven simulation with deep generative models and scientific machine learning. 
 
 baseurl: "sciml-tue.github.io"
 url: "sciml-tue.github.io"
