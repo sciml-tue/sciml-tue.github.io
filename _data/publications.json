@@ -1,39 +1,5 @@
 [
 	{
-		"id": "http://zotero.org/users/21501/items/KRUH69DE",
-		"type": "paper-conference",
-		"event-title": "Proceedings of the 7th International Conference on Advances in Mobile Computing and Multimedia",
-		"ISBN": "1-60558-659-5",
-		"page": "52-59",
-		"publisher": "ACM",
-		"title": "Predicting quality of experience in multimedia streaming",
-		"author": [
-			{
-				"family": "Menkovski",
-				"given": "Vlado"
-			},
-			{
-				"family": "Oredope",
-				"given": "Adetola"
-			},
-			{
-				"family": "Liotta",
-				"given": "Antonio"
-			},
-			{
-				"family": "Sánchez",
-				"given": "Antonio Cuadra"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2009"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/21501/items/Q9PLRG9R",
 		"type": "paper-conference",
 		"event-title": "Advanced Video and Signal Based Surveillance (AVSS), 2017 14th IEEE International Conference on",
