@@ -11,7 +11,7 @@ permalink: /publications/
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">
 
-    {% assign publist = site.data.publications | sort: 'issued.dataparts' | reverse %}
+    {% assign publist = site.data.publications | sort: 'issued' | reverse %}
 
     {% for publi in publist %}
         <div class="panel-heading">
