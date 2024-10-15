@@ -1,38 +1,1672 @@
 [
 	{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
-		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
+		"id": "http://zotero.org/users/21501/items/KRUH69DE",
+		"type": "paper-conference",
+		"event-title": "Proceedings of the 7th International Conference on Advances in Mobile Computing and Multimedia",
+		"ISBN": "1-60558-659-5",
+		"page": "52-59",
+		"publisher": "ACM",
+		"title": "Predicting quality of experience in multimedia streaming",
 		"author": [
 			{
-				"family": "Naylor",
-				"given": "P."
+				"family": "Menkovski",
+				"given": "Vlado"
 			},
 			{
-				"family": "Laé",
-				"given": "M."
+				"family": "Oredope",
+				"given": "Adetola"
 			},
 			{
-				"family": "Reyal",
-				"given": "F."
+				"family": "Liotta",
+				"given": "Antonio"
 			},
 			{
-				"family": "Walter",
-				"given": "T."
+				"family": "Sánchez",
+				"given": "Antonio Cuadra"
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2019",
-					2
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/Q9PLRG9R",
+		"type": "paper-conference",
+		"event-title": "Advanced Video and Signal Based Surveillance (AVSS), 2017 14th IEEE International Conference on",
+		"ISBN": "1-5386-2939-9",
+		"page": "1-6",
+		"publisher": "IEEE",
+		"title": "Weakly supervised training of deep convolutional neural networks for overhead pedestrian localization in depth fields",
+		"author": [
+			{
+				"family": "Corbetta",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Toschi",
+				"given": "Federico"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/MN9NE5TJ",
+		"type": "article-journal",
+		"title": "Improving Measurements of Pedestrian Dynamics using Deep Neural Networks",
+		"author": [
+			{
+				"family": "Corbetta",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Toschi",
+				"given": "Federico"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/Z2N4H696",
+		"type": "paper-conference",
+		"event-title": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+		"ISBN": "1-5386-6650-2",
+		"page": "3063-3068",
+		"publisher": "IEEE",
+		"title": "Shunting trains with deep reinforcement learning",
+		"author": [
+			{
+				"family": "Peer",
+				"given": "Evertjan"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yingqian"
+			},
+			{
+				"family": "Lee",
+				"given": "Wan-Jui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/5IXPMUNN",
+		"type": "paper-conference",
+		"event-title": "DPG-Frühjahrstagung 2019 der Sektion Materie und Kosmos (SMuK)",
+		"publisher": "DPG",
+		"title": "Convolutional LSTMs for Plasma State Classification",
+		"author": [
+			{
+				"family": "Matos",
+				"given": "F"
+			},
+			{
+				"family": "Menkovski",
+				"given": "V"
+			},
+			{
+				"family": "Felici",
+				"given": "F"
+			},
+			{
+				"family": "Jenko",
+				"given": "F"
+			},
+			{
+				"literal": "TCV Team"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/VHEJDH4N",
+		"type": "paper-conference",
+		"event-title": "2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019)",
+		"ISBN": "1-72810-089-5",
+		"page": "1-6",
+		"publisher": "IEEE",
+		"title": "Micro-expression detection in long videos using optical flow and recurrent neural networks",
+		"author": [
+			{
+				"family": "Verburg",
+				"given": "Michiel"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/25JQNS4W",
+		"type": "paper-conference",
+		"event-title": "2nd International Conference on Data Driven Plasma Science (ICDDPS)",
+		"title": "Plasma State Classification and ELM detection using Convolutional Long Short-Term Memory Neural Networks",
+		"author": [
+			{
+				"family": "Matos",
+				"given": "F"
+			},
+			{
+				"family": "Menkovski",
+				"given": "V"
+			},
+			{
+				"family": "Felici",
+				"given": "F"
+			},
+			{
+				"family": "Pau",
+				"given": "A"
+			},
+			{
+				"family": "Jenko",
+				"given": "F"
+			},
+			{
+				"literal": "TCV Team"
+			},
+			{
+				"literal": "EUROfusion MST1 Team"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/KQP8AZY5",
+		"type": "article-journal",
+		"container-title": "Science Advances",
+		"issue": "12",
+		"journalAbbreviation": "Science Advances",
+		"page": "eaba7281",
+		"title": "Deep learning velocity signals allows to quantify turbulence intensity",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Corbetta",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Benzi",
+				"given": "Roberto"
+			},
+			{
+				"family": "Toschi",
+				"given": "Federico"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/QX7WUX3A",
+		"type": "article-journal",
+		"container-title": "Nuclear Fusion",
+		"ISSN": "0029-5515",
+		"issue": "3",
+		"journalAbbreviation": "Nuclear Fusion",
+		"note": "publisher: IOP Publishing",
+		"page": "036022",
+		"title": "Classification of tokamak plasma confinement states with convolutional recurrent neural networks",
+		"volume": "60",
+		"author": [
+			{
+				"family": "Matos",
+				"given": "Francisco"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Felici",
+				"given": "Federico"
+			},
+			{
+				"family": "Pau",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Jenko",
+				"given": "Frank"
+			},
+			{
+				"literal": "TCV Team"
+			},
+			{
+				"literal": "EUROfusion MST1 Team"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/RK9SK8YR",
+		"type": "article-journal",
+		"container-title": "BioRxiv",
+		"journalAbbreviation": "BioRxiv",
+		"note": "publisher: Cold Spring Harbor Laboratory",
+		"page": "840579",
+		"title": "Detection of pre-microRNA with convolutional neural networks",
+		"author": [
+			{
+				"family": "Cordero",
+				"given": "Jorge"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Allmer",
+				"given": "Jens"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/L7ZKLCGC",
+		"type": "paper-conference",
+		"event-title": "NeurIPS 2019 Workshop",
+		"title": "Can VAEs capture topological properties?",
+		"author": [
+			{
+				"family": "Rey",
+				"given": "Luis A Perez"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Portegies",
+				"given": "Jacobus W"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/YCS3GWBC",
+		"type": "article-journal",
+		"container-title": "Scientific reports",
+		"ISSN": "2045-2322",
+		"issue": "1",
+		"journalAbbreviation": "Scientific reports",
+		"note": "publisher: Nature Publishing Group UK London",
+		"page": "11653",
+		"title": "Pedestrian orientation dynamics from high-fidelity measurements",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Willems",
+				"given": "Joris"
+			},
+			{
+				"family": "Corbetta",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Toschi",
+				"given": "Federico"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/476WCE5F",
+		"type": "paper-conference",
+		"event-title": "Twenty-Ninth International Joint Conference on Artificial Intelligence (IJCAI-20)",
+		"page": "2704-2710",
+		"title": "Diffusion variational autoencoders",
+		"author": [
+			{
+				"family": "Rey",
+				"given": "Luis A Pérez"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Portegies",
+				"given": "Jacobus W"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/4PI6CM4D",
+		"type": "paper-conference",
+		"event-title": "ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+		"ISBN": "1-5090-6631-4",
+		"page": "4102-4106",
+		"publisher": "IEEE",
+		"title": "Detection of Mild Dyspnea from Pairs of Speech Recordings",
+		"author": [
+			{
+				"family": "Boelders",
+				"given": "Sander"
+			},
+			{
+				"family": "Nallanthighal",
+				"given": "Venkata Srikanth"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Härmä",
+				"given": "Aki"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/2VZ3NYXC",
+		"type": "paper-conference",
+		"event-title": "2020 IEEE Conference on Industrial Cyberphysical Systems (ICPS)",
+		"ISBN": "1-72816-389-7",
+		"page": "303-308",
+		"publisher": "IEEE",
+		"title": "Complex Vehicle Routing with Memory Augmented Neural Networks",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Knippenberg",
+				"given": "Marijn",
+				"non-dropping-particle": "van"
+			},
+			{
+				"family": "Holenderski",
+				"given": "Mike"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/Q8XL7F8C",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2011.06070",
+		"journalAbbreviation": "arXiv preprint arXiv:2011.06070",
+		"title": "Quantifying and Learning Disentangled Representations with Limited Supervision",
+		"author": [
+			{
+				"family": "Tonnaer",
+				"given": "Loek"
+			},
+			{
+				"family": "Rey",
+				"given": "Luis A Pérez"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Holenderski",
+				"given": "Mike"
+			},
+			{
+				"family": "Portegies",
+				"given": "Jacobus W"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/8WCV9V57",
+		"type": "article-journal",
+		"container-title": "arXiv e-prints",
+		"journalAbbreviation": "arXiv e-prints",
+		"page": "arXiv-2011",
+		"title": "A Metric for Linear Symmetry-Based Disentanglement",
+		"author": [
+			{
+				"family": "Pérez Rey",
+				"given": "Luis A"
+			},
+			{
+				"family": "Tonnaer",
+				"given": "Loek"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Holenderski",
+				"given": "Mike"
+			},
+			{
+				"family": "Portegies",
+				"given": "Jacobus W"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/LCCJGD3L",
+		"type": "article-journal",
+		"container-title": "Nuclear Fusion",
+		"ISSN": "0029-5515",
+		"issue": "4",
+		"journalAbbreviation": "Nuclear Fusion",
+		"note": "publisher: IOP Publishing",
+		"page": "046019",
+		"title": "Plasma confinement mode classification using a sequence-to-sequence neural network with attention",
+		"volume": "61",
+		"author": [
+			{
+				"family": "Matos",
+				"given": "Francisco"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Pau",
+				"given": "Alessandro"
+			},
+			{
+				"family": "Marceca",
+				"given": "Gino"
+			},
+			{
+				"family": "Jenko",
+				"given": "Frank"
+			},
+			{
+				"literal": "TCV Team"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/EVRWY7U3",
+		"type": "article-journal",
+		"container-title": "Sensors & Transducers",
+		"ISSN": "2306-8515",
+		"issue": "2",
+		"journalAbbreviation": "Sensors & Transducers",
+		"note": "publisher: IFSA Publishing, SL",
+		"page": "1-8",
+		"title": "Applying Neural Nets on Sensor Noise to Identify CT Scanner Manufacturers",
+		"volume": "249",
+		"author": [
+			{
+				"family": "Gerlofsma",
+				"given": "Markus"
+			},
+			{
+				"family": "Petkovic",
+				"given": "Milan"
+			},
+			{
+				"family": "Van Liesdonk",
+				"given": "Peter"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/KAPSA255",
+		"type": "paper-conference",
+		"event-title": "International Symposium on Intelligent Data Analysis",
+		"page": "237-250",
+		"publisher": "Springer, Cham",
+		"title": "VAE-CE: Visual Contrastive Explanation using Disentangled VAEs",
+		"author": [
+			{
+				"family": "Poels",
+				"given": "Yoeri"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/4K7P7SJJ",
+		"type": "paper-conference",
+		"event-title": "Workshop at the 34th Conf. Neural Information Processing Systems (NeurIPS)",
+		"title": "Detection of plasma confinement states in the TCV tokamak",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Marceca",
+				"given": "G"
+			},
+			{
+				"family": "Matos",
+				"given": "F"
+			},
+			{
+				"family": "Menkovski",
+				"given": "V"
+			},
+			{
+				"family": "Pau",
+				"given": "A"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/7B9PS6ZH",
+		"type": "article-journal",
+		"title": "Quantifying and Learning Linear Symmetry-Based Disentanglement",
+		"author": [
+			{
+				"family": "Tonnaer",
+				"given": "Loek"
+			},
+			{
+				"family": "Rey",
+				"given": "Luis Armando Pérez"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Holenderski",
+				"given": "Mike"
+			},
+			{
+				"family": "Portegies",
+				"given": "Jacobus Willem"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/88Q4YHGB",
+		"type": "paper-conference",
+		"event-title": "International Symposium on Intelligent Data Analysis",
+		"page": "341-353",
+		"publisher": "Springer International Publishing Cham",
+		"title": "Simulation of Scientific Experiments with Generative Models",
+		"author": [
+			{
+				"family": "Veretennikov",
+				"given": "Stepan"
+			},
+			{
+				"family": "Minartz",
+				"given": "Koen"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Gumuscu",
+				"given": "Burcu"
+			},
+			{
+				"family": "Boer",
+				"given": "Jan",
+				"non-dropping-particle": "de"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/8HX4ABUY",
+		"type": "article-journal",
+		"container-title": "Applied and Computational Harmonic Analysis",
+		"ISSN": "1063-5203",
+		"journalAbbreviation": "Applied and Computational Harmonic Analysis",
+		"note": "publisher: Academic Press",
+		"page": "101642",
+		"title": "Small time asymptotics of the entropy of the heat kernel on a Riemannian manifold",
+		"volume": "71",
+		"author": [
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Portegies",
+				"given": "Jacobus W"
+			},
+			{
+				"family": "Ravelonanosy",
+				"given": "Mahefa Ratsisetraina"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/JRBFFWS2",
+		"type": "paper-conference",
+		"event-title": "NeurIPS 2022 AI for Science: Progress and Promises",
+		"title": "Towards Learned Simulators for Cell Migration",
+		"author": [
+			{
+				"family": "Minartz",
+				"given": "Koen"
+			},
+			{
+				"family": "Poels",
+				"given": "Yoeri"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/LHM634HC",
+		"type": "article-journal",
+		"container-title": "Computers & Mathematics with Applications",
+		"ISSN": "0898-1221",
+		"journalAbbreviation": "Computers & Mathematics with Applications",
+		"note": "publisher: Pergamon",
+		"page": "94-107",
+		"title": "Comparison of neural closure models for discretised PDEs",
+		"volume": "143",
+		"author": [
+			{
+				"family": "Melchers",
+				"given": "Hugo"
+			},
+			{
+				"family": "Crommelin",
+				"given": "Daan"
+			},
+			{
+				"family": "Koren",
+				"given": "Barry"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Sanderse",
+				"given": "Benjamin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/ZJ8UV9PA",
+		"type": "paper-conference",
+		"event-title": "Northern Lights Deep Learning Conference",
+		"ISBN": "2640-3498",
+		"page": "130-137",
+		"publisher": "PMLR",
+		"title": "Neural Langevin Dynamics: Towards Interpretable Neural Stochastic Differential Equations",
+		"author": [
+			{
+				"family": "Koop",
+				"given": "Simon Martinus"
+			},
+			{
+				"family": "Peletier",
+				"given": "Mark A"
+			},
+			{
+				"family": "Portegies",
+				"given": "Jacobus Willem"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/J3FSRV8Y",
+		"type": "article-journal",
+		"container-title": "Construction and Building Materials",
+		"ISSN": "0950-0618",
+		"journalAbbreviation": "Construction and Building Materials",
+		"note": "publisher: Elsevier",
+		"page": "130099",
+		"title": "Automated image segmentation of 3D printed fibrous composite micro-structures using a neural network",
+		"volume": "365",
+		"author": [
+			{
+				"family": "Nefs",
+				"given": "Karsten"
+			},
+			{
+				"family": "Menkovski",
+				"given": "V"
+			},
+			{
+				"family": "Bos",
+				"given": "Freek P"
+			},
+			{
+				"family": "Suiker",
+				"given": "Akke SJ"
+			},
+			{
+				"family": "Salet",
+				"given": "Theo AM"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/AJIPKR8S",
+		"type": "article-journal",
+		"container-title": "Advances in Neural Information Processing Systems",
+		"journalAbbreviation": "Advances in Neural Information Processing Systems",
+		"title": "Equivariant Neural Simulators for Stochastic Spatiotemporal Dynamics",
+		"volume": "36",
+		"author": [
+			{
+				"family": "Minartz",
+				"given": "Koen"
+			},
+			{
+				"family": "Poels",
+				"given": "Yoeri"
+			},
+			{
+				"family": "Koop",
+				"given": "Simon"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/58C353WF",
+		"type": "article-journal",
+		"container-title": "Nuclear Fusion",
+		"issue": "12",
+		"journalAbbreviation": "Nuclear Fusion",
+		"note": "publisher: IOP Publishing",
+		"page": "126012",
+		"title": "Fast Dynamic 1D Simulation of Divertor Plasmas with Neural PDE Surrogates",
+		"volume": "63",
+		"author": [
+			{
+				"family": "Poels",
+				"given": "Yoeri"
+			},
+			{
+				"family": "Derks",
+				"given": "Gijs"
+			},
+			{
+				"family": "Westerhof",
+				"given": "Egbert"
+			},
+			{
+				"family": "Minartz",
+				"given": "Koen"
+			},
+			{
+				"family": "Wiesen",
+				"given": "Sven"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/HNDXE9RY",
+		"type": "article-journal",
+		"container-title": "Physics of Plasmas",
+		"ISSN": "1070-664X",
+		"issue": "3",
+		"journalAbbreviation": "Physics of Plasmas",
+		"note": "publisher: AIP Publishing",
+		"title": "Representation learning algorithms for inferring machine independent latent features in pedestals in JET and AUG",
+		"volume": "31",
+		"author": [
+			{
+				"family": "Järvinen",
+				"given": "AE"
+			},
+			{
+				"family": "Kit",
+				"given": "A"
+			},
+			{
+				"family": "Poels",
+				"given": "YRJ"
+			},
+			{
+				"family": "Wiesen",
+				"given": "S"
+			},
+			{
+				"family": "Menkovski",
+				"given": "V"
+			},
+			{
+				"family": "Frassinetti",
+				"given": "L"
+			},
+			{
+				"family": "Dunne",
+				"given": "M"
+			},
+			{
+				"family": "Contributors",
+				"given": "JET"
+			},
+			{
+				"literal": "ASDEX Upgrade Team"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/A9BRH7TA",
+		"type": "article-journal",
+		"container-title": "Physics of Plasmas",
+		"ISSN": "1070-664X",
+		"issue": "3",
+		"journalAbbreviation": "Physics of Plasmas",
+		"note": "publisher: AIP Publishing",
+		"title": "On learning latent dynamics of the AUG plasma state",
+		"volume": "31",
+		"author": [
+			{
+				"family": "Kit",
+				"given": "A"
+			},
+			{
+				"family": "Järvinen",
+				"given": "AE"
+			},
+			{
+				"family": "Poels",
+				"given": "YRJ"
+			},
+			{
+				"family": "Wiesen",
+				"given": "S"
+			},
+			{
+				"family": "Menkovski",
+				"given": "V"
+			},
+			{
+				"family": "Fischer",
+				"given": "R"
+			},
+			{
+				"family": "Dunne",
+				"given": "M"
+			},
+			{
+				"literal": "ASDEX-Upgrade Team"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/QH35344L",
+		"type": "paper-conference",
+		"event-title": "27th Joint EU-US Transport Task Force Meeting (TTF 2023)",
+		"title": "Enabling online pedestal stability analysis with machine learning",
+		"author": [
+			{
+				"family": "Kit",
+				"given": "A"
+			},
+			{
+				"family": "Järvinen",
+				"given": "AE"
+			},
+			{
+				"family": "Zaitsev",
+				"given": "I"
+			},
+			{
+				"family": "Chone",
+				"given": "L"
+			},
+			{
+				"family": "Nurminen",
+				"given": "J"
+			},
+			{
+				"family": "Menkovski",
+				"given": "V"
+			},
+			{
+				"family": "Wiesen",
+				"given": "S"
+			},
+			{
+				"family": "Frassinetti",
+				"given": "L"
+			},
+			{
+				"family": "Nyström",
+				"given": "H"
+			},
+			{
+				"family": "Dunne",
+				"given": "M"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/3GKB37S9",
+		"type": "paper-conference",
+		"event-title": "27th Joint EU-US Transport Task Force Meeting (TTF 2023)",
+		"title": "Exploring state representation learning algorithms for multi-machine generative modelling of fusion plasmas",
+		"author": [
+			{
+				"family": "Järvinen",
+				"given": "A"
+			},
+			{
+				"family": "Kit",
+				"given": "A"
+			},
+			{
+				"family": "Poels",
+				"given": "Y"
+			},
+			{
+				"family": "Wiesen",
+				"given": "S"
+			},
+			{
+				"family": "Menkovski",
+				"given": "V"
+			},
+			{
+				"family": "Frassinetti",
+				"given": "L"
+			},
+			{
+				"family": "Dunne",
+				"given": "M"
+			},
+			{
+				"family": "Contributors",
+				"given": "JET"
+			},
+			{
+				"literal": "ASDEX Upgrade Team"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/U8ICIISU",
+		"type": "article-journal",
+		"container-title": "International Journal of Production Economics",
+		"ISSN": "0925-5273",
+		"journalAbbreviation": "International Journal of Production Economics",
+		"note": "publisher: Elsevier",
+		"page": "109088",
+		"title": "Deep Reinforcement Learning for One-Warehouse Multi-Retailer inventory management",
+		"volume": "267",
+		"author": [
+			{
+				"family": "Kaynov",
+				"given": "Illya"
+			},
+			{
+				"family": "Knippenberg",
+				"given": "Marijn",
+				"non-dropping-particle": "van"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Breemen",
+				"given": "Albert",
+				"non-dropping-particle": "van"
+			},
+			{
+				"family": "Jaarsveld",
+				"given": "Willem",
+				"non-dropping-particle": "van"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/NS2X8IDJ",
+		"type": "paper-conference",
+		"event-title": "International Symposium on Intelligent Data Analysis",
+		"page": "105-116",
+		"publisher": "Springer Nature Switzerland Cham",
+		"title": "Node classification in random trees",
+		"author": [
+			{
+				"family": "Nuijten",
+				"given": "Wouter WL"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/ZREGW6QZ",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2311.17970",
+		"journalAbbreviation": "arXiv preprint arXiv:2311.17970",
+		"title": "Description Generation using Variational Auto-Encoders for precursor microRNA",
+		"author": [
+			{
+				"family": "Petković",
+				"given": "Marko"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/IWA9S3X2",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2403.12659",
+		"journalAbbreviation": "arXiv preprint arXiv:2403.12659",
+		"title": "Zeolite Adsorption Property Prediction using Deep Learning",
+		"author": [
+			{
+				"family": "Petković",
+				"given": "Marko"
+			},
+			{
+				"family": "Vicent-Luna",
+				"given": "José Manuel"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Calero",
+				"given": "Sofía"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/3ZEAMX7J",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2404.08722",
+		"journalAbbreviation": "arXiv preprint arXiv:2404.08722",
+		"title": "VADA: a Data-Driven Simulator for Nanopore Sequencing",
+		"author": [
+			{
+				"family": "Niederle",
+				"given": "Jonas"
+			},
+			{
+				"family": "Koop",
+				"given": "Simon"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/67Y4MC9U",
+		"type": "paper-conference",
+		"event-title": "International Symposium on Intelligent Data Analysis",
+		"page": "129-140",
+		"publisher": "Springer",
+		"title": "Equivariant Parameter Sharing for Porous Crystalline Materials",
+		"author": [
+			{
+				"family": "Petković",
+				"given": "Marko"
+			},
+			{
+				"family": "Romero Marimon",
+				"given": "Pablo"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Calero",
+				"given": "Sofía"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/WTXQNIGQ",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2404.17365",
+		"journalAbbreviation": "arXiv preprint arXiv:2404.17365",
+		"title": "Similarity Equivariant Graph Neural Networks for Homogenization of Metamaterials",
+		"author": [
+			{
+				"family": "Hendriks",
+				"given": "Fleur"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Doškář",
+				"given": "Martin"
+			},
+			{
+				"family": "Geers",
+				"given": "Marc GD"
+			},
+			{
+				"family": "Rokoš",
+				"given": "Ondřej"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/KMY8JYHM",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2405.17260",
+		"journalAbbreviation": "arXiv preprint arXiv:2405.17260",
+		"title": "Accelerating Simulation of Two-Phase Flows with Neural PDE Surrogates",
+		"author": [
+			{
+				"family": "Poels",
+				"given": "Yoeri"
+			},
+			{
+				"family": "Minartz",
+				"given": "Koen"
+			},
+			{
+				"family": "Bansal",
+				"given": "Harshit"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/9EGDMYRR",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2405.16608",
+		"journalAbbreviation": "arXiv preprint arXiv:2405.16608",
+		"title": "Efficient Probabilistic Modeling of Crystallization at Mesoscopic Scale",
+		"author": [
+			{
+				"family": "Timmer",
+				"given": "Pol"
+			},
+			{
+				"family": "Minartz",
+				"given": "Koen"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/V9K4UGDQ",
+		"type": "article-journal",
+		"container-title": "Nuclear Fusion",
+		"ISSN": "0029-5515",
+		"issue": "8",
+		"journalAbbreviation": "Nuclear Fusion",
+		"note": "publisher: IOP Publishing",
+		"page": "086046",
+		"title": "Data-driven models in fusion exhaust: AI methods and perspectives",
+		"volume": "64",
+		"author": [
+			{
+				"family": "Wiesen",
+				"given": "S"
+			},
+			{
+				"family": "Dasbach",
+				"given": "S"
+			},
+			{
+				"family": "Kit",
+				"given": "A"
+			},
+			{
+				"family": "Jaervinen",
+				"given": "AE"
+			},
+			{
+				"family": "Gillgren",
+				"given": "A"
+			},
+			{
+				"family": "Ho",
+				"given": "A"
+			},
+			{
+				"family": "Panera",
+				"given": "A"
+			},
+			{
+				"family": "Reiser",
+				"given": "D"
+			},
+			{
+				"family": "Brenzke",
+				"given": "M"
+			},
+			{
+				"family": "Poels",
+				"given": "Y"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/2PKFMF98",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2409.01303",
+		"journalAbbreviation": "arXiv preprint arXiv:2409.01303",
+		"title": "Topological degree as a discrete diagnostic for disentanglement, with applications to the $\\Delta $ VAE",
+		"author": [
+			{
+				"family": "Ravelonanosy",
+				"given": "Mahefa Ratsisetraina"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Portegies",
+				"given": "Jacobus W"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/3DFSFK3Y",
+		"type": "article-journal",
+		"title": "Modelling of Plasma Confinement State Transitions using Hybrid Physics-based and Data Driven Approaches",
+		"author": [
+			{
+				"family": "Venturini",
+				"given": "C"
+			},
+			{
+				"family": "Pau",
+				"given": "A"
+			},
+			{
+				"family": "Poels",
+				"given": "Y"
+			},
+			{
+				"family": "Carpita",
+				"given": "M"
+			},
+			{
+				"family": "Donner",
+				"given": "C"
+			},
+			{
+				"family": "Menkovski",
+				"given": "V"
+			},
+			{
+				"family": "Romanelli",
+				"given": "G"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/users/21501/items/MYE6EXFJ",
+		"type": "article-journal",
+		"container-title": "ACS Applied Materials & Interfaces",
+		"ISSN": "1944-8244",
+		"journalAbbreviation": "ACS Applied Materials & Interfaces",
+		"note": "publisher: ACS Publications",
+		"title": "Graph Neural Networks for Carbon Dioxide Adsorption Prediction in Aluminum-Substituted Zeolites",
+		"author": [
+			{
+				"family": "Petković",
+				"given": "Marko"
+			},
+			{
+				"family": "Vicent-Luna",
+				"given": "José Manuel"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Calero",
+				"given": "Sofía"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
 				]
 			]
 		}
