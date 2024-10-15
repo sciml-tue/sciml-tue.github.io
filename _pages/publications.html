@@ -11,7 +11,9 @@ permalink: /publications/
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">
 
-    {% for publi in site.data.publications | sort: 'issued.dateparts' | 'reverse' %}
+    {% assign publist = site.data.publications | sort: 'issued.dataparts' | reverse %}
+
+    {% for publi in publist %}
         <div class="panel-heading">
             <a data-toggle="collapse" data-parent="#accordion"
                href="#collapse{{forloop.index}}"
