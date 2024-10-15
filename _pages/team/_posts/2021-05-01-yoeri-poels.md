@@ -1,16 +1,16 @@
 ---
 layout: member
 category: staff
-title: Simon Koop 
-image: simon-koop.webp 
+title: Yoeri Poels
+image: yoeri-poels.webp 
 role: PhD Researcher
-permalink: 'team/simon-m-koop'
+permalink: 'team/yoeri-poels'
 social:
     linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.com/citations?user=2s9HUEMAAAAJ&hl=en
+    google-scholar: https://scholar.google.com/citations?user=IwPbHvgAAAAJ&hl=en
     github: https://github.com/
-    website:
-    orcid: https://orcid.org/
+    website: https://research.tue.nl/en/persons/yoeri-rj-poels
+    orcid: https://orcid.org/0000-0002-4071-4855
 education:
  - Education
 ---
