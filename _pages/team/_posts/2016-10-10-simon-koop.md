@@ -3,8 +3,8 @@ layout: member
 category: staff
 title: Simon Koop 
 image: simon-koop.webp 
-role: Group Lead
-permalink: 'team/vlado-menkovski'
+role: PhD Researcher
+permalink: 'team/simon-m-koop'
 social:
     linkedin: https://www.linkedin.com/
     google-scholar: https://scholar.google.com/citations?user=2s9HUEMAAAAJ&hl=en
