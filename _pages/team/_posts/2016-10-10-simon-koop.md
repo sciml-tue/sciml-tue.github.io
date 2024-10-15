@@ -1,8 +1,8 @@
 ---
 layout: member
 category: staff
-title: Vlado Menkovski 
-image: vlado-menkovski.webp 
+title: Simon Koop 
+image: simon-koop.webp 
 role: Group Lead
 permalink: 'team/vlado-menkovski'
 social:
