@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Vlado Menkovski 
-image: researcher.png
+image: vlado-menkovski.webp 
 role: Group Lead
 permalink: 'team/vlado-menkovski'
 social:
