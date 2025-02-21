@@ -8,6 +8,5 @@ permalink: /
 
 ### About the Lab
 
-Welcome to the website of the Machine Learning for Physical Sciences lab at Eindhoven University of Technology. Our focus is on data driven simulation with deep generative models and scientific machine learning.
-
+The Machine Learning for Physical Science group develops advanced computational methods combining Scientific Machine Learning, Deep Generative Modeling, and Deep Geometric Learning to accelerate scientific discovery. We focus on building efficient emulators from synthetic and experimental data, incorporating domain knowledge and physical principles to address challenges in materials science, mechanical engineering, fluid dynamics, and nuclear fusion.
 
