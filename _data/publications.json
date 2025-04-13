@@ -1636,5 +1636,42 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "https://www.sciencedirect.com/science/article/pii/S0045782525001392",
+		"type": "article-journal",
+		"container-title": "Computer Methods in Applied Mechanics and Engineering",
+		"journalAbbreviation": "CMAME",
+		"note": "publisher: Elsevier",
+		"title": "Similarity equivariant graph neural networks for homogenization of metamaterials",
+		"author": [
+			{
+				"family": "Hendriks",
+				"given": "Fleur"
+			},
+			{
+				"family": "Menkovski",
+				"given": "Vlado"
+			},
+			{
+				"family": "Doškář",
+				"given": "Martin"
+			},
+			{
+				"family": "Geers",
+				"given": "Marc GD"
+			},
+			{
+				"family": "Rokoš",
+				"given": "Ondřej"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
 	}
 ]
