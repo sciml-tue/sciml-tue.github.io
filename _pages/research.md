@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: default
-excerpt: "RT2 Lab -- Research"
+excerpt: "AI4Sci -- Research"
 sitemap: false
 permalink: /research/
 ---
@@ -14,4 +14,4 @@ We are pushing the boundaries of deep generative modeling to overcome limitation
 
 A key aspect of our approach is the incorporation of domain knowledge. We leverage known symmetries and physical principles to develop data-efficient and scalable models. Furthermore, we are dedicated to establishing robust, domain-informed validation methodologies to ensure the reliability and trustworthiness of our solutions.
 
-Working across a wide range of fields allows us to identify commonalities in both the challenges and their solutions. We therefore actively contribute to both the specific scientific disciplines and to the state of the art of Machine Learning. We strive to bring the rapid advancements of Machine Learning and High Performance Computing to fields that traditionally benefited from computational science with the aim to overcome many long standing challenges in these fields.  
+Working across a wide range of fields allows us to identify commonalities in both the challenges and their solutions. We therefore actively contribute to both the specific scientific disciplines and to the state of the art of Machine Learning. We strive to bring the rapid advancements of Machine Learning and High Performance Computing to fields that traditionally benefited from computational science with the aim to overcome many long standing challenges in these fields.

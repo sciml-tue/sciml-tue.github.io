@@ -50,3 +50,28 @@ figcaption {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+.cards-container {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+ gap: 20px;
+}
+
+
+.card {
+ display: flex;
+ border: 1px solid #ccc;
+ padding: 20px;
+ background-color: #f9f9f9;
+ border-radius: 8px;
+ align-items: center; /* Align items vertically in the center */
+}
+
+.col-md-2 {
+ flex: 0 0 auto; /* Prevent the image column from shrinking */
+ margin-right: 20px; /* Add some space between the image and the text */
+}
+
+.col-md-10 {
+ flex: 1; /* Allow the text column to take up the remaining space */
+}
