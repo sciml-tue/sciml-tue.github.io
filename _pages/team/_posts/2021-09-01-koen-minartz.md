@@ -6,7 +6,7 @@ image: koen-minartz.webp
 role: PhD Researcher
 permalink: 'team/koen-minartz'
 social:
-    linkedin: https://www.linkedin.com/
+    linkedin: https://www.linkedin.com/in/koen-minartz/
     google-scholar: https://scholar.google.com/citations?user=QsRqn94AAAAJ&hl=nl
     github: https://github.com/kminartz
     website: https://research.tue.nl/en/persons/koen-minartz
