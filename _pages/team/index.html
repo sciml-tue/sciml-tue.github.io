@@ -1,7 +1,7 @@
 ---
 title: "Team"
 layout: default
-excerpt: "RT2 Lab: Team members"
+excerpt: "ML4Sci/e Group: Team members"
 sitemap: false
 permalink: /team/
 ---
@@ -15,8 +15,8 @@ permalink: /team/
     {% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
     {% for member in members %}
     <div class="card team-member-card">
-        <div class="row mt-3">
-            <div class="col-md-2">
+        <div class="row mt-4">
+            <div class="col-md-3">
                 <a href={{member.url}}>
                     <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                         class="card-img img-responsive img-thumbnail"
