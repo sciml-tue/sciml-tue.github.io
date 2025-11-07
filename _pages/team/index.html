@@ -19,15 +19,98 @@ permalink: /team/
             <div class="col-md-3">
                 <a href={{member.url}}>
                     <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                        class="card-img img-responsive img-thumbnail"
-                        style="max-width: 100px;"/>
+                        style="max-width: 160px; border-color: #C81919; border-width: 1px; border-style: solid;"/>
                 </a>
             </div>
 
             <div class="col-md-10">
                 <div class="card-body">
-                <h4 class="card-title">{{ member.title }}</h4>
-                <p class="card-text">{{ member.role }}</p>
+                <h4 class="card-title" style="font-weight: bold;">{{ member.title }}</h4>
+                <p class="card-text" style="font-style: italic;">{{ member.role }}</p>
+                <p class="card-text" style="color:#C81919">{{ member.projects }}</p>
+                <ul class="list-inline list-unstyled">
+                    <!-- Twitter -->
+                    {% if member.social.twitter %}
+                        <li><a target="blank" href="{{member.social.twitter}}"><i class="fab fa-twitter"></i></a></li>
+                    {% endif %}
+                    <!-- Linkedin -->
+                    {% if member.social.linkedin %}
+                        <li><a target="blank" href="{{member.social.linkedin}}"><i class="fab fa-linkedin"></i></a></li>
+                    {% endif %}
+                    <!-- Github -->
+                    {% if member.social.github %}
+                        <li><a target="blank" href="{{member.social.github}}"><i class="fab fa-github"></i></a></li>
+                    {% endif %}
+                    <!-- Personal Website -->
+                    {% if member.social.website %}
+                        <li><a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a></li>
+                    {% endif %}
+                    <!-- Google Scholar -->
+                    {% if member.social.google-scholar %}
+                        <li><a target="blank" href="{{member.social.google-scholar}}"><i class="fab fa-google"></i></a></li>
+                    {% endif %}
+                    <!-- Orcid -->
+                    {% if member.social.orcid %}
+                        <li><a target="blank" href="{{member.social.orcid}}"><i class="fab fa-orcid"></i></a></li>
+                    {% endif %}
+                    <!-- Research Gate -->
+                    {% if member.social.research-gate %}
+                        <li><a target="blank" href="{{member.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
+                    {% endif %}
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h2>Past Members</h2>
+<div class="cards-container">
+    {% assign members = site.posts | where: 'category', 'alumnus' | sort: 'date' %}
+    {% for member in members %}
+    <div class="card team-member-card">
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                    style="max-width: 160px; border-color: #C81919; border-width: 1px; border-style: solid;"/>
+            </div>
+
+            <div class="col-md-10">
+                <div class="card-body">
+                <h4 class="card-title" style="font-weight: bold;">{{ member.title }}</h4>
+                <p class="card-text" style="font-style: italic;">{{ member.role }}</p>
+                <p class="card-text" style="color:#C81919">{{ member.projects }}</p>
+                <ul class="list-inline list-unstyled">
+                    <!-- Twitter -->
+                    {% if member.social.twitter %}
+                        <li><a target="blank" href="{{member.social.twitter}}"><i class="fab fa-twitter"></i></a></li>
+                    {% endif %}
+                    <!-- Linkedin -->
+                    {% if member.social.linkedin %}
+                        <li><a target="blank" href="{{member.social.linkedin}}"><i class="fab fa-linkedin"></i></a></li>
+                    {% endif %}
+                    <!-- Github -->
+                    {% if member.social.github %}
+                        <li><a target="blank" href="{{member.social.github}}"><i class="fab fa-github"></i></a></li>
+                    {% endif %}
+                    <!-- Personal Website -->
+                    {% if member.social.website %}
+                        <li><a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a></li>
+                    {% endif %}
+                    <!-- Google Scholar -->
+                    {% if member.social.google-scholar %}
+                        <li><a target="blank" href="{{member.social.google-scholar}}"><i class="fab fa-google"></i></a></li>
+                    {% endif %}
+                    <!-- Orcid -->
+                    {% if member.social.orcid %}
+                        <li><a target="blank" href="{{member.social.orcid}}"><i class="fab fa-orcid"></i></a></li>
+                    {% endif %}
+                    <!-- Research Gate -->
+                    {% if member.social.research-gate %}
+                        <li><a target="blank" href="{{member.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
+                    {% endif %}
+                </ul>
                 </div>
             </div>
         </div>

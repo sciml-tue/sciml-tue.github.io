@@ -5,7 +5,6 @@
 
 body {
   padding-top: 70px;
-  text-align: justify;
 }
 
 figcaption {
@@ -15,6 +14,11 @@ figcaption {
 }
 
 h1 {
+  color: #C81919;
+  margin-top: 30px;
+}
+
+h2 {
   color: #C81919;
 }
 
@@ -38,7 +42,6 @@ h1 {
 
 .team-member-card {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .container-fluid {
@@ -47,7 +50,7 @@ h1 {
   padding-left: 20px;   /* Breathing room on mobile */
   padding-right: 20px;
   width: 100%;
-  max-width: 900px;
+  max-width: 950px;
 }
 
 /* Navigation bar */
@@ -85,15 +88,16 @@ h1 {
 
 .cards-container {
  display: grid;
- grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+ grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
  gap: 20px;
+ margin-bottom: 50px;
 }
 
 
 .card {
- display: flex;
+//  display: flex;
  border: 1px solid #ccc;
- padding: 20px;
+ padding: 20px 20px 10px 20px;
  background-color: #f9f9f9;
  border-radius: 8px;
  align-items: center; /* Align items vertically in the center */
@@ -109,13 +113,59 @@ h1 {
 }
 
 .panel {
-    margin-top: 60px;
-    border: 1px solid #e7e7e7; 
-    border-width: 4px 0 4px 0;
+    margin-top: 30px;
+    border: 2px solid #ccc;
 }
 
 .panel-footer {
     padding: 25px 0 10px 0;
+}
+
+.abstract-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.abstract-text {
+  font-size: 14px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* show only 5 lines */
+  -webkit-box-orient: vertical;
+  transition: all 0.3s ease;
+}
+
+.abstract-text.expanded {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.toggle-btn {
+  border: none;
+  background: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
+#homepage {
+  text-align: justify;
+}
+
+#paper-highlights .panel {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: left;
+}
+
+#footer {
+  margin-top: 60px;
 }
 
 #footer-row {
@@ -137,4 +187,6 @@ h1 {
 #footer-row .col-sm-4:not(:first-child) {
 	padding-left: 20px;
 }
+
+
 

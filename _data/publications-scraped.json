@@ -1,0 +1,3782 @@
+[
+  {
+    "title": "Acquisition, quality control, and architecture of a large image dataset as a tool for in silico cell biological research",
+    "author": [
+      {
+        "given": "Nikita",
+        "family": "Konshin"
+      },
+      {
+        "given": "Marta Garcia",
+        "family": "Valverde"
+      },
+      {
+        "given": "Danila",
+        "family": "Solodennikov"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Rosalinde",
+        "family": "Masereeuw"
+      },
+      {
+        "given": "Shantanu",
+        "family": "Singh"
+      },
+      {
+        "given": "Silvia M.",
+        "family": "Mihăilă"
+      },
+      {
+        "given": "Jan",
+        "family": "de Boer"
+      }
+    ],
+    "container-title": "Materials Today Bio",
+    "DOI": "10.1016/j.mtbio.2025.102352",
+    "issued": {
+      "year": 2025,
+      "month_year": "December 2025"
+    },
+    "source": "crossref",
+    "abstract": "We present a large-scale, standardized image dataset and analysis pipeline designed to enable in silico discovery of cell–material interactions. This resource paper introduces an open, FAIR-aligned framework for acquiring, curating, and analyzing high-content imaging data of kidney podocytes cultured on 2176 micro-topographical surfaces using the TopoChip platform. Our workflow includes automated imaging, tilt correction, object segmentation, and multi-tiered quality control, resulting in over 5500 morphological features for >1.2 million cells. Structured metadata, standardized file architectures, and ontological annotations ensure that the dataset is fully interoperable and ready for reuse. To illustrate its versatility, we provide examples of how this resource supports machine learning model development, reproducible benchmarking, and hypothesis testing in cell biology and biomaterials science. This dataset and accompanying tools are designed as a foundational reference for the community, enabling scalable, quantitative, and reproducible exploration of how microenvironments shape cell behavior."
+  },
+  {
+    "title": "MEAN: Mixture-of-Experts Neural Receiver - Architecture and Performance Analysis",
+    "author": [
+      {
+        "given": "Bram",
+        "family": "van Bolderik"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sonia",
+        "family": "Heemstra de Groot"
+      },
+      {
+        "given": "Manil Dev",
+        "family": "Gomony"
+      }
+    ],
+    "container-title": "ACM Transactions on Embedded Computing Systems",
+    "DOI": "10.1145/3765519",
+    "issued": {
+      "year": 2025,
+      "month_year": "September 2025"
+    },
+    "source": "crossref",
+    "abstract": "Neural network-based wireless receivers, also known as\n            neural receivers\n            , have demonstrated superior performance over traditional receivers, but come with greater computational complexity. The need to use these networks on energy-conscious edge devices is increasing, necessitating energy-efficient and adaptive neural receivers to function well under varying channel conditions. Transitioning static neural receivers to dynamic models using the concepts of Dynamic Neural Networks (DyNN) could reduce runtime computational complexity and energy consumption. This could be achieved by adapting the network architecture during run-time and exploit the varying channel conditions in a mobile communication system to reduce the computational complexity. This work introduces MEAN, a novel hard-gated Mixture-of-Experts (MOE) based neural receiver architecture. The main idea behind MEAN is to use several smaller Signal-to-Noise-Ratio (SNR) expert networks are used during run-time to create a network that selects the correct expert for the current data input to reduce complexity. The paper consists of the following key contributions.\n            \n              \n                (1)\n                MEAN architecture based on [25]: A hard-gated MoE model that dynamically selects the most suitable expert for each input dynamically based on current channel conditions.\n              \n              \n                (2)\n                Comprehensive system-level performance analysis of MEAN across different code rates and modulation schemes, including validation of expert selection during inference.\n              \n              \n                (3)\n                Loss function optimization for the gating network to promote the activation of specific experts in designated noise regions. This enhancement reduces gating network complexity while improving expert selection accuracy over previous MEAN implementations.\n              \n              \n                (4)\n                Hardware analysis of a gate-level implementation of MEAN synthesized in 22nm FD-SOI technology. The design is generated using a custom High-Level Synthesis (HLS) framework, providing detailed power and area evaluations.\n              \n            \n          \n          The proposed MEAN architecture for a Single Input Multiple Output (SIMO) wireless system achieves a 37.11% reduction in total power consumption with only an 11.04% increase in area, while maintaining accuracy comparable to that of a static neural network."
+  },
+  {
+    "title": "Plasma state monitoring and disruption characterization using multimodal VAEs",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Pau"
+      },
+      {
+        "given": "Christian",
+        "family": "Donner"
+      },
+      {
+        "given": "Giulio",
+        "family": "Romanelli"
+      },
+      {
+        "given": "Olivier",
+        "family": "Sauter"
+      },
+      {
+        "given": "Cristina",
+        "family": "Venturini"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "",
+        "family": ""
+      },
+      {
+        "given": "",
+        "family": ""
+      }
+    ],
+    "container-title": "Nuclear Fusion",
+    "DOI": "10.1088/1741-4326/adf121",
+    "issued": {
+      "year": 2025,
+      "month_year": "August 2025"
+    },
+    "source": "crossref",
+    "abstract": "Abstract\n               When a plasma disrupts in a tokamak, significant heat and electromagnetic loads are deposited onto the surrounding device components. These forces scale with plasma current and magnetic field strength, making disruptions one of the key challenges for future devices. Unfortunately, disruptions are not fully understood, with many different underlying causes that are difficult to anticipate. Data-driven models have shown success in predicting them, but they only provide limited interpretability. On the other hand, large-scale statistical analyses have been a great asset to understanding disruptive patterns. In this paper, we leverage data-driven methods to find an interpretable representation of the plasma state for disruption characterization. Specifically, we use a latent variable model to represent diagnostic measurements as a low-dimensional, latent representation. We build upon the Variational Autoencoder framework, and extend it for (1) continuous projections of plasma trajectories; (2) a multimodal structure to separate operating regimes; and (3) separation with respect to disruptive regimes. Subsequently, we can identify continuous indicators for the disruption rate and the disruptivity based on statistical properties of measurement data. The proposed method is demonstrated using a dataset of approximately 1600 TCV discharges, selecting for flat-top disruptions or regular terminations. We evaluate the method with respect to (1) the identified disruption risk and its correlation with other plasma properties; (2) the ability to distinguish different types of disruptions; and (3) downstream analyses. For the latter, we conduct a demonstrative study on identifying parameters connected to disruptions using counterfactual-like analysis. Overall, the method can adequately identify distinct operating regimes characterized by varying proximity to disruptions in an interpretable manner."
+  },
+  {
+    "title": "A simple contrastive embedding framework for low-resource fake news detection",
+    "author": [
+      {
+        "given": "Iftitahu",
+        "family": "Ni’mah"
+      },
+      {
+        "given": "Rini",
+        "family": "Wijayanti"
+      },
+      {
+        "given": "Agung",
+        "family": "Santosa"
+      },
+      {
+        "given": "Asril",
+        "family": "Jarin"
+      },
+      {
+        "given": "Tri",
+        "family": "Sampurno"
+      },
+      {
+        "given": "Mohammad",
+        "family": "Teduh Uliniansyah"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Neural Computing and Applications",
+    "DOI": "10.1007/s00521-025-11467-0",
+    "issued": {
+      "year": 2025,
+      "month_year": "August 2025"
+    },
+    "source": "crossref",
+    "abstract": "Abstract\n          Low-resource fake news detection aims at discerning between true and false claims from low-resource languages with scarce benchmark datasets. In this resource-constrained scenario, fake news data collected from online hoax reporting system is inherently skewed because human fact checkers mainly sample claims that are more likely to be fake or false. Instead of training end-to-end classifier on the extremely imbalanced dataset, our study investigates a simple framework based on contrastive learning and stacking-based ensemble learning as an alternate fake news classification pipeline for Indonesian language. Our empirical result shows that by combining contrastive-based embedding model—Contrast-BERT and ensemble of multilayer perceptrons (MLPs) in inference stage, we improve the precision score in fake news classification up to 26.64%, while maintaining accuracy and recall scores of above 75%, given extreme class imbalance ratio 1:24. Contrast-BERT is also superior to its counterparts in unsupervised topic clustering and evidence retrieval by nearly twofold. Furthermore, we observe that contrastive-based model follows a similar performance trend in Indonesian clickbait benchmark dataset. Contrast-BERT is more accurate and precise at predicting samples than end-to-end BERT classifier by up to 47%, given training subset with extreme imbalance ratio \n              \n                $$\\ge$$\n                \n                  ≥\n                \n              \n             1:19."
+  },
+  {
+    "title": "Robust confinement state classification with uncertainty quantification through ensembled data-driven methods",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Cristina",
+        "family": "Venturini"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Pau"
+      },
+      {
+        "given": "Olivier",
+        "family": "Sauter"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Nuclear Fusion",
+    "DOI": "10.1088/1741-4326/adf349",
+    "issued": {
+      "year": 2025,
+      "month_year": "July 2025"
+    },
+    "source": "crossref",
+    "abstract": "Abstract\n               Maximizing fusion performance in tokamaks relies on high energy confinement, often achieved through distinct operating regimes. The automated labeling of these confinement states is crucial to enable large-scale analyses or for real-time control applications. While this task becomes difficult to automate near state transitions or in marginal scenarios, much success has been achieved with data-driven models. However, these methods generally provide predictions as point estimates, and cannot adequately deal with missing and/or broken input signals. To enable wide-range applicability, we develop methods for confinement state classification with uncertainty quantification and model robustness. We focus on off-line analysis for TCV discharges, distinguishing L-mode, H-mode, and an in-between dithering phase (D). We propose ensembling data-driven methods on two axes: model formulations and feature sets. The former considers a dynamic formulation based on a recurrent Fourier Neural Operator-architecture and a static formulation based on gradient-boosted decision trees. These models are trained using multiple feature groupings categorized by diagnostic system or physical quantity. A dataset of 302 TCV discharges is fully labeled, and we release it publicly to encourage the community to build upon this work. We evaluate our method quantitatively using Cohen's kappa coefficient for predictive performance and the Expected Calibration Error for the uncertainty calibration. Furthermore, we discuss performance using a variety of common and alternative scenarios, the performance of individual components, out-of-distribution performance, cases of broken or missing signals, and evaluate conditionally-averaged behavior around different state transitions. Overall, the proposed method can distinguish L, D and H-mode with high performance, can cope with missing or broken signals, and provides meaningful uncertainty estimates."
+  },
+  {
+    "title": "Similarity equivariant graph neural networks for homogenization of metamaterials",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc G.D.",
+        "family": "Geers"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Computer Methods in Applied Mechanics and Engineering",
+    "DOI": "10.1016/j.cma.2025.117867",
+    "issued": {
+      "year": 2025,
+      "month_year": "May 2025"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Discovering interaction mechanisms in crowds via deep generative surrogate experiments",
+    "author": [
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Simon Martinus",
+        "family": "Koop"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Corbetta"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "DOI": "10.1038/s41598-025-92566-9",
+    "issued": {
+      "year": 2025,
+      "month_year": "March 2025"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Acquisition, Quality Control, and Architecture of a Large Image Dataset as a Tool for in Silico Cell Biological Research",
+    "author": [
+      {
+        "given": "Nikita",
+        "family": "Konshin"
+      },
+      {
+        "given": "Marta",
+        "family": "Valverde"
+      },
+      {
+        "given": "Danila",
+        "family": "Solodennikov"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Anne Metje van",
+        "family": "Genderen"
+      },
+      {
+        "given": "Shantanu",
+        "family": "Singh"
+      },
+      {
+        "given": "Silvia",
+        "family": "Mihaila"
+      },
+      {
+        "given": "Jan",
+        "family": "de Boer"
+      }
+    ],
+    "container-title": "",
+    "DOI": "10.2139/ssrn.5367160",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Score Matching on Large Geometric Graphs for Cosmology Generation",
+    "author": [
+      {
+        "given": "Diana-Alexandra",
+        "family": "Onuțu"
+      },
+      {
+        "given": "Yue",
+        "family": "Zhao"
+      },
+      {
+        "given": "Joaquin",
+        "family": "Vanschoren"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-032-05461-6_2",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "VADA: A Data-Driven Simulator for Nanopore Sequencing",
+    "author": [
+      {
+        "given": "Jonas",
+        "family": "Niederle"
+      },
+      {
+        "given": "Simon",
+        "family": "Koop"
+      },
+      {
+        "given": "Marc",
+        "family": "Pagès-Gallego"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-78977-9_13",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Symmetry-informed graph neural networks for carbon dioxide isotherm and adsorption prediction in aluminum-substituted zeolites",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "José-Manuel",
+        "family": "Vicent Luna"
+      },
+      {
+        "given": "Elīza Beate",
+        "family": "Dinne"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "Journal of Materials Chemistry A",
+    "DOI": "10.1039/d5ta02482j",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "crossref",
+    "abstract": "SymGNN leverages crystal symmetries to improve adsorption predictions in zeolites. By encoding symmetry-aware features, the model achieves accurate isotherm and heat of adsorption predictions, even for unseen topologies."
+  },
+  {
+    "title": "Efficient Probabilistic Modeling of Crystallization at Mesoscopic Scale",
+    "author": [
+      {
+        "given": "Pol",
+        "family": "Timmer"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-032-05461-6_1",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Aspect-Based Few-Shot Learning",
+    "author": [
+      {
+        "given": "Tim",
+        "family": "van Engeland"
+      },
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-032-05461-6_22",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Wallpaper Group-Based Mechanical Metamaterials: Dataset Including Mechanical Responses",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc G. D.",
+        "family": "Geers"
+      },
+      {
+        "given": "Kevin",
+        "family": "Verbeek"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2507.11195",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc",
+        "family": "Geers"
+      },
+      {
+        "given": "Kevin",
+        "family": "Verbeek"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.17160963",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc",
+        "family": "Geers"
+      },
+      {
+        "given": "Kevin",
+        "family": "Verbeek"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.15849549",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Towards Fully Automated Molecular Simulations: Multi-Agent Framework for Simulation Setup and Force Field Extraction",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2509.10210",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Equivariant Flow Matching for Symmetry-Breaking Bifurcation Problems",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc G. D.",
+        "family": "Geers"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2509.03340",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Score Matching on Large Geometric Graphs for Cosmology Generation",
+    "author": [
+      {
+        "given": "Diana-Alexandra",
+        "family": "Onutu"
+      },
+      {
+        "given": "Yue",
+        "family": "Zhao"
+      },
+      {
+        "given": "Joaquin",
+        "family": "Vanschoren"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2508.16990",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc",
+        "family": "Geers"
+      },
+      {
+        "given": "Kevin",
+        "family": "Verbeek"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.16089509",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc",
+        "family": "Geers"
+      },
+      {
+        "given": "Kevin",
+        "family": "Verbeek"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.15977256",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc",
+        "family": "Geers"
+      },
+      {
+        "given": "Kevin",
+        "family": "Verbeek"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.15849550",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Flow Matching for Geometric Trajectory Simulation",
+    "author": [
+      {
+        "given": "Kiet Bennema ten",
+        "family": "Brinke"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2505.18647",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Plasma State Monitoring and Disruption Characterization using Multimodal VAEs",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Pau"
+      },
+      {
+        "given": "Christian",
+        "family": "Donner"
+      },
+      {
+        "given": "Giulio",
+        "family": "Romanelli"
+      },
+      {
+        "given": "Olivier",
+        "family": "Sauter"
+      },
+      {
+        "given": "Cristina",
+        "family": "Venturini"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "the TCV",
+        "family": "team"
+      },
+      {
+        "given": "the WPTE",
+        "family": "team"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2504.17710",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Symmetry-Informed Graph Neural Networks for Carbon Dioxide Isotherm and Adsorption Prediction in Aluminum-Substituted Zeolites",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "José-Manuel Vicent",
+        "family": "Luna"
+      },
+      {
+        "given": "El\\=ıza Beate",
+        "family": "Dinne"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2503.22737",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Robust Confinement State Classification with Uncertainty Quantification through Ensembled Data-Driven Methods",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Cristina",
+        "family": "Venturini"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Pau"
+      },
+      {
+        "given": "Olivier",
+        "family": "Sauter"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "the TCV",
+        "family": "team"
+      },
+      {
+        "given": "the WPTE",
+        "family": "team"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2502.17397",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Deep Neural Cellular Potts Models",
+    "author": [
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Tim",
+        "family": "d'Hondt"
+      },
+      {
+        "given": "Leon",
+        "family": "Hillmann"
+      },
+      {
+        "given": "Jörn",
+        "family": "Starruß"
+      },
+      {
+        "given": "Lutz",
+        "family": "Brusch"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2502.02129",
+    "issued": {
+      "year": 2025,
+      "month_year": "2025"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Description Generation Using Variational Auto-Encoders for Precursor microRNA",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Entropy",
+    "DOI": "10.3390/e26110921",
+    "issued": {
+      "year": 2024,
+      "month_year": "October 2024"
+    },
+    "source": "crossref",
+    "abstract": "Micro RNAs (miRNA) are a type of non-coding RNA involved in gene regulation and can be associated with diseases such as cancer, cardiovascular, and neurological diseases. As such, identifying the entire genome of miRNA can be of great relevance. Since experimental methods for novel precursor miRNA (pre-miRNA) detection are complex and expensive, computational detection using Machine Learning (ML) could be useful. Existing ML methods are often complex black boxes that do not create an interpretable structural description of pre-miRNA. In this paper, we propose a novel framework that makes use of generative modeling through Variational Auto-Encoders to uncover the generative factors of pre-miRNA. After training the VAE, the pre-miRNA description is developed using a decision tree on the lower dimensional latent space. Applying the framework to miRNA classification, we obtain a high reconstruction and classification performance while also developing an accurate miRNA description."
+  },
+  {
+    "title": "MEAN: Mixture-of-Experts Based Neural Receiver",
+    "author": [
+      {
+        "given": "Bram",
+        "family": "Van Bolderik"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sonia",
+        "family": "Heemstra"
+      },
+      {
+        "given": "Manil Dev",
+        "family": "Gomony"
+      }
+    ],
+    "container-title": "2024 IFIP/IEEE 32nd International Conference on Very Large Scale Integration (VLSI-SoC)",
+    "DOI": "10.1109/vlsi-soc62099.2024.10767787",
+    "issued": {
+      "year": 2024,
+      "month_year": "October 2024"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Graph Neural Networks for Carbon Dioxide Adsorption Prediction in Aluminum-Substituted Zeolites",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "José Manuel",
+        "family": "Vicent-Luna"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "ACS Applied Materials &amp; Interfaces",
+    "DOI": "10.1021/acsami.4c12198",
+    "issued": {
+      "year": 2024,
+      "month_year": "October 2024"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Agile Design-Space Exploration of Dynamic Layer-Skipping in Neural Receivers",
+    "author": [
+      {
+        "given": "Bram",
+        "family": "Van Bolderik"
+      },
+      {
+        "given": "Souradip",
+        "family": "Sarkar"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sonia",
+        "family": "Heemstra"
+      },
+      {
+        "given": "Manil Dev",
+        "family": "Gomony"
+      }
+    ],
+    "container-title": "2024 27th Euromicro Conference on Digital System Design (DSD)",
+    "DOI": "10.1109/dsd64264.2024.00025",
+    "issued": {
+      "year": 2024,
+      "month_year": "August 2024"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Small time asymptotics of the entropy of the heat kernel on a Riemannian manifold",
+    "author": [
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Jacobus W.",
+        "family": "Portegies"
+      },
+      {
+        "given": "Mahefa Ratsisetraina",
+        "family": "Ravelonanosy"
+      }
+    ],
+    "container-title": "Applied and Computational Harmonic Analysis",
+    "DOI": "10.1016/j.acha.2024.101642",
+    "issued": {
+      "year": 2024,
+      "month_year": "July 2024"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Node Classification in Random Trees",
+    "author": [
+      {
+        "given": "Wouter W. L.",
+        "family": "Nuijten"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-58547-0_9",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Deep Reinforcement Learning for One-Warehouse Multi-Retailer inventory management",
+    "author": [
+      {
+        "given": "Illya",
+        "family": "Kaynov"
+      },
+      {
+        "given": "Marijn",
+        "family": "van Knippenberg"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Albert",
+        "family": "van Breemen"
+      },
+      {
+        "given": "Willem",
+        "family": "van Jaarsveld"
+      }
+    ],
+    "container-title": "International Journal of Production Economics",
+    "DOI": "10.1016/j.ijpe.2023.109088",
+    "issued": {
+      "year": 2024,
+      "month_year": "January 2024"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Equivariant Parameter Sharing for Porous Crystalline Materials",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "Pablo",
+        "family": "Romero Marimon"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-58547-0_11",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Mechanical Metamaterial: Square Array of Circular Holes Under Deformation",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Ondrej",
+        "family": "Rokos"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc",
+        "family": "Geers"
+      }
+    ],
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.14229618",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Mechanical Metamaterial: Square Array of Circular Holes Under Deformation",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Ondrej",
+        "family": "Rokos"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc",
+        "family": "Geers"
+      }
+    ],
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.14229619",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Similarity Equivariant Graph Neural Networks for Homogenization of Metamaterials",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc G. D.",
+        "family": "Geers"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2404.17365",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Aspect-Based Few-Shot Learning",
+    "author": [
+      {
+        "given": "Tim",
+        "family": "van Engeland"
+      },
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2412.16202",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Understanding complex crowd dynamics with generative neural simulators",
+    "author": [
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Simon Martinus",
+        "family": "Koop"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Corbetta"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2412.01491",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Topological degree as a discrete diagnostic for disentanglement, with applications to the $Δ$VAE",
+    "author": [
+      {
+        "given": "Mahefa Ratsisetraina",
+        "family": "Ravelonanosy"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Jacobus W.",
+        "family": "Portegies"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2409.01303",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Accelerating Simulation of Two-Phase Flows with Neural PDE Surrogates",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Harshit",
+        "family": "Bansal"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2405.17260",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "VADA: a Data-Driven Simulator for Nanopore Sequencing",
+    "author": [
+      {
+        "given": "Jonas",
+        "family": "Niederle"
+      },
+      {
+        "given": "Simon",
+        "family": "Koop"
+      },
+      {
+        "given": "Marc",
+        "family": "Pagès-Gallego"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2404.08722",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Efficient Probabilistic Modeling of Crystallization at Mesoscopic Scale",
+    "author": [
+      {
+        "given": "Pol",
+        "family": "Timmer"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2405.16608",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Graph Neural Networks for Carbon Dioxide Adsorption Prediction in Aluminium-Exchanged Zeolites",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "José Manuel",
+        "family": "Vicent-Luna"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2403.12659",
+    "issued": {
+      "year": 2024,
+      "month_year": "2024"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Fast dynamic 1D simulation of divertor plasmas with neural PDE surrogates",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Gijs",
+        "family": "Derks"
+      },
+      {
+        "given": "Egbert",
+        "family": "Westerhof"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Sven",
+        "family": "Wiesen"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Nuclear Fusion",
+    "DOI": "10.1088/1741-4326/acf70d",
+    "issued": {
+      "year": 2023,
+      "month_year": "September 2023"
+    },
+    "source": "crossref",
+    "abstract": "Abstract\n               Managing divertor plasmas is crucial for operating reactor scale tokamak devices due to heat and particle flux constraints on the divertor target. Simulation is an important tool to understand and control these plasmas, however, for real-time applications or exhaustive parameter scans only simple approximations are currently fast enough. We address this lack of fast simulators using neural partial differential equation (PDE) surrogates, data-driven neural network-based surrogate models trained using solutions generated with a classical numerical method. The surrogate approximates a time-stepping operator that evolves the full spatial solution of a reference physics-based model over time. We use DIV1D, a 1D dynamic model of the divertor plasma, as reference model to generate data. DIV1D’s domain covers a 1D heat flux tube from the X-point (upstream) to the target. We simulate a realistic TCV divertor plasma with dynamics induced by upstream density ramps and provide an exploratory outlook towards fast transients. State-of-the-art neural PDE surrogates are evaluated in a common framework and extended for properties of the DIV1D data. We evaluate (1) the speed-accuracy trade-off; (2) recreating non-linear behavior; (3) data efficiency; and (4) parameter inter- and extrapolation. Once trained, neural PDE surrogates can faithfully approximate DIV1D’s divertor plasma dynamics at sub real-time computation speeds: In the proposed configuration, \n                     \n                     \n                        \n                           \n                              2\n                           \n                        \n                     \n                   ms of plasma dynamics can be computed in \n                     \n                     \n                        \n                           ≈\n                        \n                        \n                           \n                              0.63\n                           \n                        \n                     \n                   ms of wall-clock time, several orders of magnitude faster than DIV1D."
+  },
+  {
+    "title": "Comparison of neural closure models for discretised PDEs",
+    "author": [
+      {
+        "given": "Hugo",
+        "family": "Melchers"
+      },
+      {
+        "given": "Daan",
+        "family": "Crommelin"
+      },
+      {
+        "given": "Barry",
+        "family": "Koren"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Sanderse"
+      }
+    ],
+    "container-title": "Computers &amp; Mathematics with Applications",
+    "DOI": "10.1016/j.camwa.2023.04.030",
+    "issued": {
+      "year": 2023,
+      "month_year": "August 2023"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Lottery Pools: Winning More by Interpolating Tickets without Increasing Training or Inference Cost",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Shiwei",
+        "family": "Liu"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "DOI": "10.1609/aaai.v37i9.26297",
+    "issued": {
+      "year": 2023,
+      "month_year": "June 2023"
+    },
+    "source": "crossref",
+    "abstract": "Lottery tickets (LTs) is able to discover accurate and sparse subnetworks that could be trained in isolation to match the performance of dense networks. Ensemble, in parallel, is one of the oldest time-proven tricks in machine learning to improve performance by combining the output of multiple independent models. However, the benefits of ensemble in the context of LTs will be diluted since ensemble does not directly lead to stronger sparse subnetworks, but leverages their predictions for a better decision. In this work, we first observe that directly averaging the weights of the adjacent learned subnetworks significantly boosts the performance of LTs. Encouraged by this observation, we further propose an alternative way to perform an \"ensemble'' over the subnetworks identified by iterative magnitude pruning via a simple interpolating strategy. We call our method Lottery Pools. In contrast to the naive ensemble which brings no performance gains to each single subnetwork, Lottery Pools yields much stronger sparse subnetworks than the original LTs without requiring any extra training or inference cost. Across various modern architectures on CIFAR-10/100 and ImageNet, we show that our method achieves significant performance gains in both, in-distribution and out-of-distribution scenarios. Impressively, evaluated with VGG-16 and ResNet-18, the produced sparse subnetworks outperform the original LTs by up to 1.88% on CIFAR-100 and 2.36% on CIFAR-100-C; the resulting dense network surpasses the pre-trained dense-model up to \n 2.22% on CIFAR-100 and 2.38% on CIFAR-100-C. Our source code can be found at https://github.com/luuyin/Lottery-pools."
+  },
+  {
+    "title": "Supervised learning of process discovery techniques using graph neural networks",
+    "author": [
+      {
+        "given": "Dominique",
+        "family": "Sommers"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Dirk",
+        "family": "Fahland"
+      }
+    ],
+    "container-title": "Information Systems",
+    "DOI": "10.1016/j.is.2023.102209",
+    "issued": {
+      "year": 2023,
+      "month_year": "May 2023"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Hop-Count Based Self-supervised Anomaly Detection on Attributed Networks",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-26387-3_14",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Enhancing Adversarial Training via Reweighting Optimization Trajectory",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Shiwei",
+        "family": "Liu"
+      },
+      {
+        "given": "Tianlong",
+        "family": "Chen"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Li",
+        "family": "Shen"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-43412-9_7",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "NLG Evaluation Metrics Beyond Correlation Analysis: An Empirical Metric Preference Checklist",
+    "author": [
+      {
+        "given": "Iftitahu",
+        "family": "Nimah"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "DOI": "10.18653/v1/2023.acl-long.69",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Out-of-Distribution Generalisation with Symmetry-Based Disentangled Representations",
+    "author": [
+      {
+        "given": "Loek",
+        "family": "Tonnaer"
+      },
+      {
+        "given": "Mike",
+        "family": "Holenderski"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-30047-9_34",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Lottery Pools: Winning More by Interpolating Tickets without Increasing Training or Inference Cost",
+    "author": [
+      {
+        "given": "Association for Artificial Intelligence",
+        "family": "2023"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Shiwei",
+        "family": "Liu"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      },
+      {
+        "given": "Lu",
+        "family": "Yin"
+      }
+    ],
+    "container-title": "Underline Science Inc.",
+    "DOI": "10.48448/kqy1-1b60",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Node Classification in Random Trees",
+    "author": [
+      {
+        "given": "Wouter W. L.",
+        "family": "Nuijten"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2311.12167",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Equivariant Neural Simulators for Stochastic Spatiotemporal Dynamics",
+    "author": [
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Simon",
+        "family": "Koop"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2305.14286",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Fast dynamic 1D simulation of divertor plasmas with neural PDE surrogates",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Gijs",
+        "family": "Derks"
+      },
+      {
+        "given": "Egbert",
+        "family": "Westerhof"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Sven",
+        "family": "Wiesen"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Nuclear fusion 63(12)",
+    "DOI": "10.34734/fzj-2024-02947",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Description Generation using Variational Auto-Encoders for precursor microRNA",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2311.17970",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Equivariant Parameter Sharing for Porous Crystalline Materials",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "Pablo",
+        "family": "Romero-Marimon"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofia",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2304.01628",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Dynamic Sparsity Is Channel-Level Sparsity Learner",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Gen",
+        "family": "Li"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Li",
+        "family": "Shen"
+      },
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Zhangyang",
+        "family": "Wang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Xiaolong",
+        "family": "Ma"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      },
+      {
+        "given": "Shiwei",
+        "family": "Liu"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2305.19454",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "KeyGen2Vec: Learning Document Embedding via Multi-label Keyword Generation in Question-Answering",
+    "author": [
+      {
+        "given": "Iftitahu",
+        "family": "Ni'mah"
+      },
+      {
+        "given": "Samaneh",
+        "family": "Khoshrou"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2310.19650",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Fast Dynamic 1D Simulation of Divertor Plasmas with Neural PDE Surrogates",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Gijs",
+        "family": "Derks"
+      },
+      {
+        "given": "Egbert",
+        "family": "Westerhof"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Sven",
+        "family": "Wiesen"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2305.18944",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "NLG Evaluation Metrics Beyond Correlation Analysis: An Empirical Metric Preference Checklist",
+    "author": [
+      {
+        "given": "Iftitahu",
+        "family": "Ni'mah"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2305.08566",
+    "issued": {
+      "year": 2023,
+      "month_year": "2023"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Direction-aggregated Attack for Transferable Adversarial Examples",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Yuhao",
+        "family": "Wang"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "ACM Journal on Emerging Technologies in Computing Systems",
+    "DOI": "10.1145/3501769",
+    "issued": {
+      "year": 2022,
+      "month_year": "April 2022"
+    },
+    "source": "crossref",
+    "abstract": "Deep neural networks are vulnerable to adversarial examples that are crafted by imposing imperceptible changes to the inputs. However, these adversarial examples are most successful in white-box settings where the model and its parameters are available. Finding adversarial examples that are transferable to other models or developed in a black-box setting is significantly more difficult. In this article, we propose the Direction-aggregated adversarial attacks that deliver transferable adversarial examples. Our method utilizes the aggregated direction during the attack process for avoiding the generated adversarial examples overfitting to the white-box model. Extensive experiments on ImageNet show that our proposed method improves the transferability of adversarial examples significantly and outperforms state-of-the-art attacks, especially against adversarial trained models. The best averaged attack success rate of our proposed method reaches 94.6% against three adversarial trained models and 94.8% against five defense methods. It also reveals that current defense approaches do not prevent transferable adversarial attacks."
+  },
+  {
+    "title": "Simulation of Scientific Experiments with Generative Models",
+    "author": [
+      {
+        "given": "Stepan",
+        "family": "Veretennikov"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Burcu",
+        "family": "Gumuscu"
+      },
+      {
+        "given": "Jan",
+        "family": "de Boer"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-01333-1_27",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Semantic-Based Few-Shot Classification by Psychometric Learning",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-01333-1_31",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "VAE-CE: Visual Contrastive Explanation Using Disentangled VAEs",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-01333-1_19",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Automated Image Segmentation of Fibrous Composite Micro-Structures Using a Neural Network",
+    "author": [
+      {
+        "given": "Karsten",
+        "family": "Nefs"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Freek",
+        "family": "Bos"
+      },
+      {
+        "given": "Akke",
+        "family": "Suiker"
+      },
+      {
+        "given": "Theo",
+        "family": "Salet"
+      }
+    ],
+    "container-title": "SSRN Electronic Journal",
+    "DOI": "10.2139/ssrn.4176789",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "NLG Evaluation Metrics Beyond Correlation Analysis: An Empirical Metric Preference Checklist",
+    "author": [
+      {
+        "given": "Association for Computational Linguistics",
+        "family": "2023"
+      },
+      {
+        "given": "Ling.Chen@uts.edu.au",
+        "family": "Meng Fang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Iftitahu",
+        "family": "Nimah"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Underline Science Inc.",
+    "DOI": "10.48448/0v42-n786",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Comparison of neural closure models for discretised PDEs",
+    "author": [
+      {
+        "given": "Hugo",
+        "family": "Melchers"
+      },
+      {
+        "given": "Daan",
+        "family": "Crommelin"
+      },
+      {
+        "given": "Barry",
+        "family": "Koren"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Sanderse"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2210.14675",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "You Can Have Better Graph Neural Networks by Not Training Weights at All: Finding Untrained GNNs Tickets",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Tianlong",
+        "family": "Chen"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Jiaxu",
+        "family": "Zhao"
+      },
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Decebal Constantin",
+        "family": "Mocanu"
+      },
+      {
+        "given": "Zhangyang",
+        "family": "Wang"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      },
+      {
+        "given": "Shiwei",
+        "family": "Liu"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2211.15335",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Lottery Pools: Winning More by Interpolating Tickets without Increasing Training or Inference Cost",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Shiwei",
+        "family": "Liu"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2208.10842",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Neural Langevin Dynamics: towards interpretable Neural Stochastic Differential Equations",
+    "author": [
+      {
+        "given": "Simon M.",
+        "family": "Koop"
+      },
+      {
+        "given": "Mark A.",
+        "family": "Peletier"
+      },
+      {
+        "given": "Jacobus W.",
+        "family": "Portegies"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2211.09537",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Towards Learned Simulators for Cell Migration",
+    "author": [
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2210.01123",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Small time asymptotics of the entropy of the heat kernel on a Riemannian manifold",
+    "author": [
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Jacobus W.",
+        "family": "Portegies"
+      },
+      {
+        "given": "Mahefa Ratsisetraina",
+        "family": "Ravelonanosy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2209.11509",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Superposing Many Tickets into One: A Performance Booster for Sparse Neural Network Training",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      },
+      {
+        "given": "Decebal Constantin",
+        "family": "Mocanu"
+      },
+      {
+        "given": "Shiwei",
+        "family": "Liu"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2205.15322",
+    "issued": {
+      "year": 2022,
+      "month_year": "2022"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Process Discovery Using Graph Neural Networks",
+    "author": [
+      {
+        "given": "Dominique",
+        "family": "Sommers"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Dirk",
+        "family": "Fahland"
+      }
+    ],
+    "container-title": "2021 3rd International Conference on Process Mining (ICPM)",
+    "DOI": "10.1109/icpm53251.2021.9576849",
+    "issued": {
+      "year": 2021,
+      "month_year": "October 2021"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Deep learning velocity signals allow quantifying turbulence intensity",
+    "author": [
+      {
+        "given": "Alessandro",
+        "family": "Corbetta"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Roberto",
+        "family": "Benzi"
+      },
+      {
+        "given": "Federico",
+        "family": "Toschi"
+      }
+    ],
+    "container-title": "Science Advances",
+    "DOI": "10.1126/sciadv.aba7281",
+    "issued": {
+      "year": 2021,
+      "month_year": "March 2021"
+    },
+    "source": "crossref",
+    "abstract": "Deep learning velocity signals allow quantifying turbulence intensity from very short signals and with extremely high accuracy."
+  },
+  {
+    "title": "Efficient and effective training of sparse recurrent neural networks",
+    "author": [
+      {
+        "given": "Shiwei",
+        "family": "Liu"
+      },
+      {
+        "given": "Iftitahu",
+        "family": "Ni’mah"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Decebal Constantin",
+        "family": "Mocanu"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Neural Computing and Applications",
+    "DOI": "10.1007/s00521-021-05727-y",
+    "issued": {
+      "year": 2021,
+      "month_year": "January 2021"
+    },
+    "source": "crossref",
+    "abstract": "AbstractRecurrent neural networks (RNNs) have achieved state-of-the-art performances on various applications. However, RNNs are prone to be memory-bandwidth limited in practical applications and need both long periods of training and inference time. The aforementioned problems are at odds with training and deploying RNNs on resource-limited devices where the memory and floating-point operations (FLOPs) budget are strictly constrained. To address this problem, conventional model compression techniques usually focus on reducing inference costs, operating on a costly pre-trained model. Recently, dynamic sparse training has been proposed to accelerate the training process by directly training sparse neural networks from scratch. However, previous sparse training techniques are mainly designed for convolutional neural networks and multi-layer perceptron. In this paper, we introduce a method to train intrinsically sparse RNN models with a fixed number of parameters and floating-point operations (FLOPs) during training. We demonstrate state-of-the-art sparse performance with long short-term memory and recurrent highway networks on widely used tasks, language modeling, and text classification. We simply use the results to advocate that, contrary to the general belief that training a sparse neural network from scratch leads to worse performance than dense networks, sparse training with adaptive connectivity can usually achieve better performance than dense models for RNNs."
+  },
+  {
+    "title": "ProtoInfoMax: Prototypical Networks with Mutual Information Maximization for Out-of-Domain Detection",
+    "author": [
+      {
+        "given": "Iftitahu",
+        "family": "Nimah"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    "DOI": "10.18653/v1/2021.findings-emnlp.138",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Knowledge Elicitation Using Deep Metric Learning and Psychometric Testing",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-030-67661-2_10",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "On Generalization of Graph Autoencoders with Adversarial Training",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-030-86520-7_23",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Hop-Count Based Self-Supervised Anomaly Detection on Attributed Networks",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2104.07917",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Semantic-Based Few-Shot Learning by Interactive Psychometric Testing",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2112.09201",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Direction-Aggregated Attack for Transferable Adversarial Examples",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "YuHao",
+        "family": "Wang"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2104.09172",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "ProtoInfoMax: Prototypical Networks with Mutual Information Maximization for Out-of-Domain Detection",
+    "author": [
+      {
+        "given": "Iftitahu",
+        "family": "Ni'mah"
+      },
+      {
+        "given": "Meng",
+        "family": "Fang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2108.12229",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Hierarchical Semantic Segmentation using Psychometric Learning",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Shiwei",
+        "family": "Liu"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2107.03212",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "VAE-CE: Visual Contrastive Explanation using Disentangled VAEs",
+    "author": [
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2108.09159",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "On Generalization of Graph Autoencoders with Adversarial Training",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2107.02658",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Process Discovery Using Graph Neural Networks",
+    "author": [
+      {
+        "given": "Dominique",
+        "family": "Sommers"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Dirk",
+        "family": "Fahland"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2109.05835",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Calibrated Adversarial Training",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2110.00623",
+    "issued": {
+      "year": 2021,
+      "month_year": "2021"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "A comparison of methods for 3D scene shape retrieval",
+    "author": [
+      {
+        "given": "Juefei",
+        "family": "Yuan"
+      },
+      {
+        "given": "Hameed",
+        "family": "Abdul-Rashid"
+      },
+      {
+        "given": "Bo",
+        "family": "Li"
+      },
+      {
+        "given": "Yijuan",
+        "family": "Lu"
+      },
+      {
+        "given": "Tobias",
+        "family": "Schreck"
+      },
+      {
+        "given": "Song",
+        "family": "Bai"
+      },
+      {
+        "given": "Xiang",
+        "family": "Bai"
+      },
+      {
+        "given": "Ngoc-Minh",
+        "family": "Bui"
+      },
+      {
+        "given": "Minh N.",
+        "family": "Do"
+      },
+      {
+        "given": "Trong-Le",
+        "family": "Do"
+      },
+      {
+        "given": "Anh-Duc",
+        "family": "Duong"
+      },
+      {
+        "given": "Kai",
+        "family": "He"
+      },
+      {
+        "given": "Xinwei",
+        "family": "He"
+      },
+      {
+        "given": "Mike",
+        "family": "Holenderski"
+      },
+      {
+        "given": "Dmitri",
+        "family": "Jarnikov"
+      },
+      {
+        "given": "Tu-Khiem",
+        "family": "Le"
+      },
+      {
+        "given": "Wenhui",
+        "family": "Li"
+      },
+      {
+        "given": "Anan",
+        "family": "Liu"
+      },
+      {
+        "given": "Xiaolong",
+        "family": "Liu"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Khac-Tuan",
+        "family": "Nguyen"
+      },
+      {
+        "given": "Thanh-An",
+        "family": "Nguyen"
+      },
+      {
+        "given": "Vinh-Tiep",
+        "family": "Nguyen"
+      },
+      {
+        "given": "Weizhi",
+        "family": "Nie"
+      },
+      {
+        "given": "Van-Tu",
+        "family": "Ninh"
+      },
+      {
+        "given": "Perez",
+        "family": "Rey"
+      },
+      {
+        "given": "Yuting",
+        "family": "Su"
+      },
+      {
+        "given": "Vinh",
+        "family": "Ton-That"
+      },
+      {
+        "given": "Minh-Triet",
+        "family": "Tran"
+      },
+      {
+        "given": "Tianyang",
+        "family": "Wang"
+      },
+      {
+        "given": "Shu",
+        "family": "Xiang"
+      },
+      {
+        "given": "Shandian",
+        "family": "Zhe"
+      },
+      {
+        "given": "Heyu",
+        "family": "Zhou"
+      },
+      {
+        "given": "Yang",
+        "family": "Zhou"
+      },
+      {
+        "given": "Zhichao",
+        "family": "Zhou"
+      }
+    ],
+    "container-title": "Computer Vision and Image Understanding",
+    "DOI": "10.1016/j.cviu.2020.103070",
+    "issued": {
+      "year": 2020,
+      "month_year": "December 2020"
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Bridging the Performance Gap between FGSM and PGD Adversarial Training",
+    "author": [
+      {
+        "given": "Tianjin",
+        "family": "Huang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Yulong",
+        "family": "Pei"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2011.05157",
+    "issued": {
+      "year": 2020,
+      "month_year": "2020"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Quantifying and Learning Linear Symmetry-Based Disentanglement",
+    "author": [
+      {
+        "given": "Loek",
+        "family": "Tonnaer"
+      },
+      {
+        "given": "Luis A. Pérez",
+        "family": "Rey"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mike",
+        "family": "Holenderski"
+      },
+      {
+        "given": "Jacobus W.",
+        "family": "Portegies"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2011.06070",
+    "issued": {
+      "year": 2020,
+      "month_year": "2020"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Causal Discovery from Incomplete Data: A Deep Learning Approach",
+    "author": [
+      {
+        "given": "Yuhao",
+        "family": "Wang"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Hao",
+        "family": "Wang"
+      },
+      {
+        "given": "Xin",
+        "family": "Du"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2001.05343",
+    "issued": {
+      "year": 2020,
+      "month_year": "2020"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Pedestrian orientation dynamics from high-fidelity measurements",
+    "author": [
+      {
+        "given": "Joris",
+        "family": "Willems"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Corbetta"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Federico",
+        "family": "Toschi"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2001.04646",
+    "issued": {
+      "year": 2020,
+      "month_year": "2020"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Knowledge Elicitation using Deep Metric Learning and Psychometric Testing",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yin"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2004.06353",
+    "issued": {
+      "year": 2020,
+      "month_year": "2020"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Explaining Predictions by Approximating the Local Decision Boundary",
+    "author": [
+      {
+        "given": "Georgios",
+        "family": "Vlassopoulos"
+      },
+      {
+        "given": "Tim",
+        "family": "van Erven"
+      },
+      {
+        "given": "Henry",
+        "family": "Brighton"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2006.07985",
+    "issued": {
+      "year": 2020,
+      "month_year": "2020"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "A Metric for Linear Symmetry-Based Disentanglement",
+    "author": [
+      {
+        "given": "Luis A. Pérez",
+        "family": "Rey"
+      },
+      {
+        "given": "Loek",
+        "family": "Tonnaer"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mike",
+        "family": "Holenderski"
+      },
+      {
+        "given": "Jacobus W.",
+        "family": "Portegies"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2011.13306",
+    "issued": {
+      "year": 2020,
+      "month_year": "2020"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Complex Vehicle Routing with Memory Augmented Neural Networks",
+    "author": [
+      {
+        "given": "Marijn",
+        "family": "van Knippenberg"
+      },
+      {
+        "given": "Mike",
+        "family": "Holenderski"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2009.10520",
+    "issued": {
+      "year": 2020,
+      "month_year": "2020"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Plasma Confinement Mode Classification Using a Sequence-to-Sequence Neural Network With Attention",
+    "author": [
+      {
+        "given": "Francisco",
+        "family": "Matos"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Pau"
+      },
+      {
+        "given": "Gino",
+        "family": "Marceca"
+      },
+      {
+        "given": "Frank",
+        "family": "Jenko"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2012.02114",
+    "issued": {
+      "year": 2020,
+      "month_year": "2020"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "BSDAR: Beam Search Decoding with Attention Reward in Neural Keyphrase Generation",
+    "author": [
+      {
+        "given": "Iftitahu",
+        "family": "Ni'mah"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Mykola",
+        "family": "Pechenizkiy"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1909.09485",
+    "issued": {
+      "year": 2019,
+      "month_year": "2019"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Diffusion Variational Autoencoders",
+    "author": [
+      {
+        "given": "Luis A. Pérez",
+        "family": "Rey"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Jacobus W.",
+        "family": "Portegies"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1901.08991",
+    "issued": {
+      "year": 2019,
+      "month_year": "2019"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "StampNet: unsupervised multi-class object discovery",
+    "author": [
+      {
+        "given": "Joost",
+        "family": "Visser"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Corbetta"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Federico",
+        "family": "Toschi"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1902.02693",
+    "issued": {
+      "year": 2019,
+      "month_year": "2019"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Micro-expression detection in long videos using optical flow and recurrent neural networks",
+    "author": [
+      {
+        "given": "Michiel",
+        "family": "Verburg"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1903.10765",
+    "issued": {
+      "year": 2019,
+      "month_year": "2019"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Hierarchical Annotation of Images with Two-Alternative-Forced-Choice Metric Learning",
+    "author": [
+      {
+        "given": "Niels",
+        "family": "Hellinga"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1905.09523",
+    "issued": {
+      "year": 2019,
+      "month_year": "2019"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Evolutionary Construction of Convolutional Neural Networks",
+    "author": [
+      {
+        "given": "Marijn",
+        "family": "van Knippenberg"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sergio",
+        "family": "Consoli"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1903.01895",
+    "issued": {
+      "year": 2019,
+      "month_year": "2019"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Deep learning velocity signals allows to quantify turbulence intensity",
+    "author": [
+      {
+        "given": "Alessandro",
+        "family": "Corbetta"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Roberto",
+        "family": "Benzi"
+      },
+      {
+        "given": "Federico",
+        "family": "Toschi"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1911.05718",
+    "issued": {
+      "year": 2019,
+      "month_year": "2019"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Extended 2D Scene Image-Based 3D Scene Retrieval",
+    "author": [
+      {
+        "given": "Hameed",
+        "family": "Abdul-Rashid"
+      },
+      {
+        "given": "Juefei",
+        "family": "Yuan"
+      },
+      {
+        "given": "Bo",
+        "family": "Li"
+      },
+      {
+        "given": "Yijuan",
+        "family": "Lu"
+      },
+      {
+        "given": "Tobias",
+        "family": "Schreck"
+      },
+      {
+        "given": "Ngoc-Minh",
+        "family": "Bui"
+      },
+      {
+        "given": "Trong-Le",
+        "family": "Do"
+      },
+      {
+        "given": "Mike",
+        "family": "Holenderski"
+      },
+      {
+        "given": "Dmitri",
+        "family": "Jarnikov"
+      },
+      {
+        "given": "Khiem T.",
+        "family": "Le"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Khac-Tuan",
+        "family": "Nguyen"
+      },
+      {
+        "given": "Thanh-An",
+        "family": "Nguyen"
+      },
+      {
+        "given": "Vinh-Tiep",
+        "family": "Nguyen"
+      },
+      {
+        "given": "Tu V.",
+        "family": "Ninh"
+      },
+      {
+        "given": "Perez",
+        "family": "Rey"
+      },
+      {
+        "given": "Minh-Triet",
+        "family": "Tran"
+      },
+      {
+        "given": "Tianyang",
+        "family": "Wang"
+      }
+    ],
+    "container-title": "Eurographics Workshop on 3D Object Retrieval",
+    "DOI": "10.2312/3dor.20191060",
+    "issued": {
+      "year": 2019,
+      "month_year": "2019"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Deep Learning in Information Security",
+    "author": [
+      {
+        "given": "Stefan",
+        "family": "Thaler"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Milan",
+        "family": "Petkovic"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1809.04332",
+    "issued": {
+      "year": 2018,
+      "month_year": "2018"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Anomaly Detection for imbalanced datasets with Deep Generative Models",
+    "author": [
+      {
+        "given": "Nazly Rocio Santos",
+        "family": "Buitrago"
+      },
+      {
+        "given": "Loek",
+        "family": "Tonnaer"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Dimitrios",
+        "family": "Mavroeidis"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1811.00986",
+    "issued": {
+      "year": 2018,
+      "month_year": "2018"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Improving Measurements of Pedestrian Dynamics using Deep Neural Networks",
+    "author": [
+      {
+        "given": "Alessandro",
+        "family": "Corbetta"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Federico",
+        "family": "Toschi"
+      }
+    ],
+    "container-title": "Unpublished",
+    "DOI": "10.13140/rg.2.2.19689.60007",
+    "issued": {
+      "year": 2017,
+      "month_year": "2017"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Weakly supervised training of deep convolutional neural networks for overhead pedestrian localization in depth fields",
+    "author": [
+      {
+        "given": "Alessandro",
+        "family": "Corbetta"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Federico",
+        "family": "Toschi"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1706.02850",
+    "issued": {
+      "year": 2017,
+      "month_year": "2017"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Understanding Anatomy Classification Through Attentive Response Maps",
+    "author": [
+      {
+        "given": "Devinder",
+        "family": "Kumar"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Graham W.",
+        "family": "Taylor"
+      },
+      {
+        "given": "Alexander",
+        "family": "Wong"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1611.06284",
+    "issued": {
+      "year": 2016,
+      "month_year": "2016"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Can Pretrained Neural Networks Detect Anatomy?",
+    "author": [
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Zharko",
+        "family": "Aleksovski"
+      },
+      {
+        "given": "Axel",
+        "family": "Saalbach"
+      },
+      {
+        "given": "Hannes",
+        "family": "Nickisch"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.1512.05986",
+    "issued": {
+      "year": 2015,
+      "month_year": "2015"
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Computational inference and control of quality in multimedia services",
+    "author": [
+      {
+        "given": "V Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Technische Universiteit Eindhoven",
+    "DOI": "10.6100/ir751521",
+    "issued": {
+      "year": 2013,
+      "month_year": "2013"
+    },
+    "source": "datacite",
+    "abstract": ""
+  }
+]

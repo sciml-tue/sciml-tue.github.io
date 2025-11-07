@@ -1,0 +1,122 @@
+[
+     {
+    "title": "Similarity equivariant graph neural networks for homogenization of metamaterials",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc G.D.",
+        "family": "Geers"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Computer Methods in Applied Mechanics and Engineering",
+    "DOI": "10.1016/j.cma.2025.117867",
+    "issued": {
+      "year": 2025,
+      "month_year": "May 2025"
+    },
+    "source": "crossref",
+    "abstract": "Soft, porous mechanical metamaterials exhibit pattern transformations that may have important
+applications in soft robotics, sound reduction and biomedicine. To design these innovative materials, it is important to be able to simulate them accurately and quickly, in order to tune their
+mechanical properties. Since conventional simulations using the finite element method entail a
+high computational cost, in this article we aim to develop a machine learning-based approach
+that scales favorably to serve as a surrogate model. To ensure that the model is also able to
+handle various microstructures, including those not encountered during training, we include the
+microstructure as part of the network input. Therefore, we introduce a graph neural network
+that predicts global quantities (energy, stress, stiffness) as well as the pattern transformations
+that occur (the kinematics) in hyperelastic, two-dimensional, microporous materials. Predicting
+these pattern transformations means predicting the displacement field. To make our model as
+accurate and data-efficient as possible, various symmetries are incorporated into the model.
+The starting point is an 𝐸(𝑛)-equivariant graph neural network (which respects translation,
+rotation and reflection) that has periodic boundary conditions (i.e., it is in-/equivariant with
+respect to the choice of RVE), is scale in-/equivariant, can simulate large deformations, and can
+predict scalars, vectors as well as second and fourth order tensors (specifically energy, stress
+and stiffness). The incorporation of scale equivariance makes the model equivariant with respect
+to the similarities group, of which the Euclidean group 𝐸(𝑛) is a subgroup. We show that this
+network is more accurate and data-efficient than graph neural networks with fewer symmetries.
+To create an efficient graph representation of the finite element discretization, we use only the
+internal geometrical hole boundaries from the finite element mesh to achieve a better speed-up
+and scaling with the mesh size."
+  },
+
+  {
+    "title": "Discovering interaction mechanisms in crowds via deep generative surrogate experiments",
+    "author": [
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Simon Martinus",
+        "family": "Koop"
+      },
+      {
+        "given": "Alessandro",
+        "family": "Corbetta"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "DOI": "10.1038/s41598-025-92566-9",
+    "issued": {
+      "year": 2025,
+      "month_year": "March 2025"
+    },
+    "source": "crossref",
+    "abstract": "Understanding pedestrian crowd dynamics is a fundamental challenge in active matter physics and crucial for efficient urban infrastructure design. Complexity emerges from social interactions, which are often qualitatively modeled as distance-based additive forces. Endeavors towards quantitative characterizations have been limited by a trade-off between parametric control in laboratory studies and statistical resolution of large-scale real-world measurements. To bridge this gap, we propose a virtual surrogate experimentation paradigm that combines laboratory-like control with real-world statistical resolution. Our approach hinges on a generative simulation model based on graph neural networks, which we train on real-world pedestrian tracking data and validate against key statistical properties of crowd dynamics. Our surrogate experiments not only reproduce known experimental results on collision avoidance, but also reveal new insights into N-body interactions in crowds, which have remained poorly understood. We find that these interactions are topological, with individuals reacting to a limited number of neighbors within a narrow field of view. Our study exemplifies how data-driven approaches can uncover fundamental interaction structures in social systems, even when only uncontrolled measurements are available. This approach opens new avenues for scientific discovery in complex systems where laboratory studies are prohibitive, from crowd dynamics and animal behavior to opinion formation."
+  },
+  {
+    "title": "Symmetry-informed graph neural networks for carbon dioxide isotherm and adsorption prediction in aluminum-substituted zeolites",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "José-Manuel",
+        "family": "Vicent Luna"
+      },
+      {
+        "given": "Elīza Beate",
+        "family": "Dinne"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "Journal of Materials Chemistry A",
+    "DOI": "10.1039/d5ta02482j",
+    "issued": {
+      "year": 2025,
+      "month_year": "March 2025"
+    },
+    "source": "crossref",
+    "abstract": "Accurately predicting adsorption properties in nanoporous materials using deep learning models remains a challenging task. This challenge becomes even more pronounced when attempting to generalize to structures that were not part of the training data. In this work, we introduce SymGNN, a graph neural network architecture that leverages material symmetries to improve adsorption property prediction. By incorporating symmetry operations into the message-passing mechanism, our model enhances parameter sharing across different zeolite topologies, leading to improved generalization. We evaluate SymGNN on both interpolation and generalization tasks, using samples with varying Si/Al distributions from 108 zeolite topologies for interpolation and assessing generalization on two unseen frameworks. SymGNN successfully captures key adsorption trends, including the influence of both the framework and aluminium distribution on CO2 adsorption. Furthermore, we apply our model to the characterization of experimental adsorption isotherms, using a genetic algorithm to infer likely aluminium distributions. Our results highlight the effectiveness of machine learning models trained on simulations for studying real materials and suggest promising directions for fine-tuning with experimental data and generative approaches for the inverse design of multifunctional nanomaterials."
+  }
+]

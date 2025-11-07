@@ -2,9 +2,23 @@
 layout: default
 ---
 
+<script>
+function toggleAbstract(index) {
+  const abstract = document.getElementById(`abstract${index}`);
+  const btn = event.target;
+
+  abstract.classList.toggle('expanded');
+  if (abstract.classList.contains('expanded')) {
+    btn.textContent = 'Show less ↑';
+  } else {
+    btn.textContent = 'Show more ↓';
+  }
+}
+</script>
+
 <div id="homelogo" class="">
     <div style="text-align: center; padding: 2% 0;">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/slider/transparent-logo.png" alt="Home" style="max-width: 80%; height: auto;"/>
+        <img src="{{ site.url }}{{ site.baseurl }}/images/team/generated-group-picture.png" alt="Home" style="max-width: 80%; height: auto;"/>
     </div>
 </div>
 	<!-- <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" > -->
@@ -45,7 +59,73 @@ layout: default
 	<!-- </div> -->
 
 <!-- </div> -->
-{{ content }}
+ <div id="homepage">
+    {{ content }}
+
+    <h1>Recent publications </h1>
+
+    <div class="panel-group" id="paper-highlights" style="margin-bottom: 40px;">
+    <div class="panel panel-default">
+
+        {% assign publist = site.data.selected-publications %}
+
+        {% for publi in publist %}
+        <a href="https://doi.org/{{ publi.DOI }}" style="color: inherit; text-decoration: none;">
+            <div class="panel-body">
+            <div class="row align-items-center">
+                
+                <!-- Left column: paper details -->
+                <div class="col-md-9">
+                <!-- title -->
+                <b style="font-size: 17px;">"{{ publi.title }}"</b><br>
+
+                <!-- authors -->
+                {% for author in publi.author %}
+                    {% if author.given != "" and author.family != "" %}
+                    {{ author.given }} {{ author.family }}{% unless forloop.last %}, {% endunless %}
+                    {% endif %}
+                {% endfor %} <br>
+
+                <!-- container -->
+                <i>{{ publi.container-title }}</i>
+
+                <!-- issued date -->
+                ({{ publi.issued.month_year }}) <br> <br>
+                </a>
+
+                <!-- Abstract -->
+                <div class="abstract-container">
+                    <span class="abstract-text" id="abstract{{forloop.index}}" style="font-size: 15px;">
+                        {{ publi.abstract }}
+                    </span>
+                    <button class="toggle-btn" onclick="toggleAbstract({{forloop.index}})">Show more ↓</button>
+                </div>
+                </div>
+                <!-- Right column: thumbnail -->
+                <div class="col-md-3 text-end">
+                <a href="https://doi.org/{{ publi.DOI }}">
+                <img 
+                    src="{{ site.url }}{{ site.baseurl }}/images/thumbnails/{{ publi.DOI | replace: '/', '_' }}.png"
+                    alt="Thumbnail for {{ publi.title }}"
+                    style="max-width: 200px; height: auto;"
+                />
+                </a>
+                </div>
+            </div>
+            </div>
+        {% if forloop.last == false %}
+            <hr style="margin: 10px 0;">
+        {% endif %}
+        {% endfor %}
+
+    </div>
+</div>
+
+    <h1>Highlighted projects </h1> 
+These are the most interesting project we are working on or have done in the past, with images or animations of their dynamical systems.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/animations/pedestrians.gif" alt="Simulated pedestrians" style="max-width: 70%; height: auto; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;"/>
+</div>
 
 <div id="newsid" class="col-sm-4 nopadding-right" >
 <!--	{% include tweets.html %} -->

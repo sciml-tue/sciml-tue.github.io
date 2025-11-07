@@ -4,6 +4,7 @@ category: staff
 title: Simon Koop 
 image: simon-koop.webp 
 role: PhD Researcher
+projects: Neural Fields
 permalink: 'team/simon-m-koop'
 social:
     linkedin: https://www.linkedin.com/

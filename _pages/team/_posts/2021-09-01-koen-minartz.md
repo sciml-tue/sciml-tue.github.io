@@ -4,6 +4,7 @@ category: staff
 title: Koen Minartz
 image: koen-minartz.webp 
 role: PhD Researcher
+projects: Pedestrian dynamics, Cellular Potts
 permalink: 'team/koen-minartz'
 social:
     linkedin: https://www.linkedin.com/in/koen-minartz/
