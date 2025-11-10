@@ -8,47 +8,38 @@ permalink: /publications/
 
 <h1 style="margin-bottom: 22px;">{{page.title}}</h1>
 
-<div class="panel-group" id="accordion">
+<div class="panel-group" id="paper-highlights" style="margin-bottom: 40px;">
     <div class="panel panel-default">
 
-    {% assign publist = site.data.publications | reverse %}
+        {% assign publist = site.data.publications-scraped %}
 
-    {% for publi in publist %}
-        <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;">
-            <!-- authors -->
-            {% assign authors = "" | split:"/" %}
-            {% for author in publi.author %}
-                {% assign authors = authors | push: author.family %}
-            {% endfor %}
-            {{ authors | array_to_sentence_string }},
-
-            <!-- title with link -->
-            "{{ publi.title }}",
-
-            <!-- container -->
-            <b>{{ publi.container-title }}</b>
-
-            <!-- issued date -->
-            ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
-
-            <!-- DOI -->
-            {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %}
-            </a>
-        </div>
-
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
+        {% for publi in publist %}
+        <a href="https://doi.org/{{ publi.DOI }}" style="color: inherit; text-decoration: none;">
             <div class="panel-body">
-                <p>{{ publi.abstract }}</p>
+            <div class="row align-items-center">
+                
+                <!-- Left column: paper details -->
+                <!-- title -->
+                <b style="font-size: 17px;">"{{ publi.title }}"</b><br>
 
-                <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
-                   role="button" target="blank">Link</a>
+                <!-- authors -->
+                {% for author in publi.author %}
+                    {% if author.given != "" and author.family != "" %}
+                    {{ author.given }} {{ author.family }}{% unless forloop.last %}, {% endunless %}
+                    {% endif %}
+                {% endfor %} <br>
+
+                <!-- container -->
+                <i>{{ publi.container-title }}</i>
+
+                <!-- issued date -->
+                ({{ publi.issued.month_year }}) <br>
+                </a>
+
+                </div>
+
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+
     </div>
 </div>

@@ -21,48 +21,12 @@ function toggleAbstract(index) {
         <img src="{{ site.url }}{{ site.baseurl }}/images/team/generated-group-picture.png" alt="Home" style="max-width: 80%; height: auto;"/>
     </div>
 </div>
-	<!-- <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" > -->
-		<!-- Menu -->
-		<!-- <ol class="carousel-indicators">
-			<li data-target="#carousel" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel" data-slide-to="1"></li>
-			<li data-target="#carousel" data-slide-to="1"></li>
-		</ol> -->
 
-		<!-- Items -->
-		<!-- <div class="carousel-inner" markdown="0">
-			<div class="item active">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/slider/transparent-logo.png" alt="Home" />
-			</div> -->
-			<!-- <div class="item">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/slider/deep-cellular-potts.png" alt="Deep Cellular Potts" />
-			</div>
-			<div class="item">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/slider/miRNA-arch.png" alt="MicroRNA Architecture" />
-			</div> -->
-<!--			<div class="item">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/slider/slider-image.png" alt="Slide 2" />
-			</div>
-			<div class="item">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/slider/slider-image.png" alt="Slide 2" />
--->
-			<!-- </div> -->
-		<!-- </div> -->
-		<!-- <a class="left carousel-control" href="#carousel" role="button" data-slide="prev"> -->
-		<!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
-		<!-- <span class="sr-only">Previous</span> -->
-		<!-- </a> -->
-		<!-- <a class="right carousel-control" href="#carousel" role="button" data-slide="next"> -->
-		<!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
-		<!-- <span class="sr-only">Next</span> -->
-		<!-- </a> -->
-	<!-- </div> -->
-
-<!-- </div> -->
  <div id="homepage">
     {{ content }}
 
     <h1>Recent publications </h1>
+    Below are some of our recent publications. Here is the full <a href="/publications/" style="color:#C81919">list of our publications</a>.
 
     <div class="panel-group" id="paper-highlights" style="margin-bottom: 40px;">
     <div class="panel panel-default">
@@ -70,13 +34,15 @@ function toggleAbstract(index) {
         {% assign publist = site.data.selected-publications %}
 
         {% for publi in publist %}
-        <a href="https://doi.org/{{ publi.DOI }}" style="color: inherit; text-decoration: none;">
+        
             <div class="panel-body">
             <div class="row align-items-center">
                 
                 <!-- Left column: paper details -->
                 <div class="col-md-9">
                 <!-- title -->
+                <a href="/projects/#{{ publi.project | slugify }}" style="font-size: 15px; color:#C81919;"><i>{{ publi.project }}</i></a> <br>
+                <a href="https://doi.org/{{ publi.DOI }}" style="color: inherit; text-decoration: none;">
                 <b style="font-size: 17px;">"{{ publi.title }}"</b><br>
 
                 <!-- authors -->
@@ -107,24 +73,39 @@ function toggleAbstract(index) {
                 <img 
                     src="{{ site.url }}{{ site.baseurl }}/images/thumbnails/{{ publi.DOI | replace: '/', '_' }}.png"
                     alt="Thumbnail for {{ publi.title }}"
-                    style="max-width: 200px; height: auto;"
+                    style="max-width: 170px; height: auto;"
                 />
                 </a>
                 </div>
             </div>
             </div>
         {% if forloop.last == false %}
-            <hr style="margin: 10px 0;">
+            <hr style="margin: 6px 0;">
         {% endif %}
         {% endfor %}
 
     </div>
 </div>
 
-    <h1>Highlighted projects </h1> 
-These are the most interesting project we are working on or have done in the past, with images or animations of their dynamical systems.
+<h1>Highlighted projects </h1> 
+These are some interesting projects we are currently working on. All our projects can be found <a href="/projects/" style="color:#C81919">on the Projects page</a>.
+<h2>Mechanical Metamaterials</h2>
+Metamaterials are engineered structures whose microscopic geometry gives rise to unusual properties — such as tunable stiffness, shape-morphing behavior, or adaptive acoustic response — that don’t occur in conventional materials. Our research focuses on flexible, porous mechanical metamaterials that can actively change their mechanical or acoustic properties when stimulated by mechanical, pneumatic, or magnetic loading. Such materials have potential applications in soft robotics, adaptive structures, and biomedical devices.
+
+Designing these metamaterials is challenging because their behavior involves complex, nonlinear deformations and pattern transformations like buckling. Exploring their vast design space through traditional simulations is computationally expensive. To overcome this, our team is developing machine learning–based surrogate models, particularly graph neural networks (GNNs), that can accurately and efficiently predict the response of metamaterials with arbitrary geometries. These models capture essential physical symmetries (like rotation, scaling, and periodicity) and can generalize to new designs, enabling faster and smarter discovery of metamaterials tailored for specific functions.
+
+<div style="text-align: center;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/projects/metamaterials1.png" alt="" style="max-width: 50%; height: auto; margin: 0 10px 20px 10px; display: inline-block;"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/animations/metamaterials.gif" alt="Buckling" style="max-width: 45%; height: auto; margin: 0 10px 20px 10px; display: inline-block;"/>
+</div>
+
+<h2>Pedestrian Dynamics</h2>
+Understanding how pedestrians move and interact in crowds is both a fundamental problem in active matter physics and essential for designing safer, more efficient urban spaces. Traditional studies face a trade-off between the control of laboratory experiments and the scale of real-world observations, limiting our ability to capture the true complexity of crowd behavior. Our team bridges this gap through virtual surrogate experiments powered by graph neural networks (GNNs), trained on large-scale pedestrian tracking data.
+
+This approach, realized in our Neural Crowd Simulator (NeCS), reproduces known results in collision avoidance and reveals new insights into multi-person (N-body) interactions, showing that pedestrians respond primarily to a small number of nearby individuals within a limited field of view. By combining data-driven modeling with physical interpretability, we uncover the topological nature of social interactions in crowds—challenging long-held assumptions of additive pairwise forces. Beyond pedestrian movement, this framework demonstrates how machine learning can accelerate discovery in complex social and physical systems, from animal collectives to opinion dynamics.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/animations/pedestrians.gif" alt="Simulated pedestrians" style="max-width: 70%; height: auto; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;"/>
+<figcaption style="font-size: 15px; text-align: center; font-style: italic;">Simulation of pedestrian trajectories from <a href="https://doi.org/10.1038/s41598-025-92566-9" style="color:#C81919">NeCS</a>. Top shows ground truth, bottom is simulation. <br> Color indicates the more interesting long-distance trajectories.</figcaption>
 </div>
 
 <div id="newsid" class="col-sm-4 nopadding-right" >

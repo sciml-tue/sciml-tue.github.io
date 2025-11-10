@@ -9,6 +9,18 @@ import re
 NAME = "Vlado Menkovski"
 ROWS = 1000  # number of items per page
 
+team = [
+    "Simon Koop",
+    "Koen Minartz",
+    "Fleur Hendriks",
+    "Marko Petkovic",
+    "Marko Petković",
+    "Mahdi Mehmanchi",
+    "Kiet Bennema ten Brinke",
+    "Rachna Ramesh",
+    "Yoeri Poels",
+]
+
 
 def get_crossref_works():
     """Fetch all Crossref works"""
@@ -73,6 +85,19 @@ def extract_crossref_data(item):
     ):
         return None
 
+    # Skip if none of the other authors are in the team
+    if not any(
+        any(
+            (
+                a.get("given", "") in member.split(" ")
+                and a.get("family", "") in member.split(" ")
+            )
+            for member in team
+        )
+        for a in item.get("author", [])
+    ):
+        return None
+
     # Extract and clean abstract
     abstract_html = item.get("abstract", "")
     # Remove HTML tags if present
@@ -85,7 +110,7 @@ def extract_crossref_data(item):
         "DOI": item.get("DOI", ""),
         "issued": {"year": year, "month_year": month_year},
         "source": "crossref",
-        "abstract": abstract_text,  # ✅ added
+        "abstract": abstract_text,
     }
 
 
@@ -147,6 +172,19 @@ def extract_datacite_data(item):
     # Skip if Vlado Menkovski is not an author
     if not any(
         ("Vlado" in a.get("given", "") and "Menkovski" in a.get("family", "")) for a in authors
+    ):
+        return None
+
+    # Skip if none of the other authors are in the team
+    if not any(
+        any(
+            (
+                a.get("given", "") in member.split(" ")
+                and a.get("family", "") in member.split(" ")
+            )
+            for member in team
+        )
+        for a in authors
     ):
         return None
 

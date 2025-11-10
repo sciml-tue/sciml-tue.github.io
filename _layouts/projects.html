@@ -1,0 +1,115 @@
+---
+layout: default
+title: "Projects"
+excerpt: "SciML/e -- Projects"
+sitemap: false
+permalink: /projects/
+---
+
+<main class="page-content">
+  <section class="content-section">
+    <h1>Projects</h1>
+    <p>Below we present the projects that we are currently working on in our group.</p>
+
+    <!-- Mechanical Metamaterials -->
+    <h2>Mechanical Metamaterials</h2>
+    <p>
+      Metamaterials are engineered structures whose microscopic geometry gives rise to unusual properties — such as tunable stiffness, shape-morphing behavior, or adaptive acoustic response — that don’t occur in conventional materials. Our research focuses on flexible, porous mechanical metamaterials that can actively change their mechanical or acoustic properties when stimulated by mechanical, pneumatic, or magnetic loading. Such materials have potential applications in soft robotics, adaptive structures, and biomedical devices.
+    </p>
+    <p>
+      Designing these metamaterials is challenging because their behavior involves complex, nonlinear deformations and pattern transformations like buckling. Exploring their vast design space through traditional simulations is computationally expensive. To overcome this, our team is developing machine learning–based surrogate models, particularly graph neural networks (GNNs), that can accurately and efficiently predict the response of metamaterials with arbitrary geometries. These models capture essential physical symmetries (like rotation, scaling, and periodicity) and can generalize to new designs, enabling faster and smarter discovery of metamaterials tailored for specific functions.
+    </p>
+
+    <div class="metamaterials-figures" style="display:flex; justify-content:center; gap:20px; align-items:flex-start; flex-wrap:wrap;">
+      <figure style="margin:0; max-width:45%; text-align:left;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/projects/metamaterials1.png" alt="Metamaterial sample" style="width:100%; height:auto; display:block;"/>
+        <figcaption style="font-size: 15px; text-align: left; font-style: italic;">Simulation of pedestrian trajectories from <a href="https://doi.org/10.1038/s41598-025-92566-9" style="color:#C81919">NeCS</a>. Top shows ground truth, bottom is simulation. <br> Color indicates the more interesting long-distance trajectories.</figcaption>
+      </figure>
+
+      <figure style="margin:0; max-width:45%;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/animations/metamaterials.gif" alt="Buckling" style="width:100%; height:auto; display:block;"/>
+        <figcaption style="font-size: 15px; text-align: center; font-style: italic;">Buckling behavior of a mechanical metamaterial under compression.</figcaption>
+      </figure>
+    </div>
+
+    <p><i>Relevant publications:</i></p>
+    <ul>
+      <li><a href="https://doi.org/10.1016/j.cma.2025.117867" style="color: #C81919;">Similarity equivariant graph neural networks for homogenization of metamaterials</a></li>
+      <li><a href="https://doi.org/10.48550/arXiv.2507.11195" style="color: #C81919;">Wallpaper Group-Based Mechanical Metamaterials: Dataset Including Mechanical Responses</a></li>
+      <li><a href="https://doi.org/10.5281/zenodo.14229618" style="color: #C81919;">Mechanical Metamaterial: Square Array of Circular Holes Under Deformation</a></li>
+    </ul>
+
+    <!-- Pedestrian Dynamics -->
+    <h2>Pedestrian Dynamics</h2>
+    <p>
+      Understanding how pedestrians move and interact in crowds is both a fundamental problem in active matter physics and essential for designing safer, more efficient urban spaces. Traditional studies face a trade-off between the control of laboratory experiments and the scale of real-world observations, limiting our ability to capture the true complexity of crowd behavior. Our team bridges this gap through virtual surrogate experiments powered by graph neural networks (GNNs), trained on large-scale pedestrian tracking data.
+    </p>
+    <p>
+      This approach, realized in our Neural Crowd Simulator (NeCS), reproduces known results in collision avoidance and reveals new insights into multi-person (N-body) interactions, showing that pedestrians respond primarily to a small number of nearby individuals within a limited field of view. By combining data-driven modeling with physical interpretability, we uncover the topological nature of social interactions in crowds—challenging long-held assumptions of additive pairwise forces. Beyond pedestrian movement, this framework demonstrates how machine learning can accelerate discovery in complex social and physical systems, from animal collectives to opinion dynamics.
+    </p>
+
+    <img src="{{ site.url }}{{ site.baseurl }}/images/animations/pedestrians.gif" alt="Simulated pedestrians" style="max-width: 75%; height: auto; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;"/>
+    <figcaption style="font-size: 15px; text-align: center; font-style: italic;">
+      Simulation of pedestrian trajectories from <a href="https://doi.org/10.1038/s41598-025-92566-9" style="color:#C81919">NeCS</a>. 
+      Top shows ground truth, bottom is simulation.<br>
+      Color indicates the more interesting long-distance trajectories.
+    </figcaption>
+
+    <p><i>Relevant publications:</i></p>
+    <ul>
+      <li><a href="https://doi.org/10.1038/s41598-025-92566-9" style="color: #C81919;">Discovering interaction mechanisms in crowds via deep generative surrogate experiments</a></li>
+      <li><a href="https://doi.org/10.48550/arxiv.2305.14286" style="color: #C81919;">Equivariant Neural Simulators for Stochastic Spatiotemporal Dynamics</a></li>
+      <li><a href="https://doi.org/10.48550/arxiv.2505.18647" style="color: #C81919;">Flow Matching for Geometric Trajectory Simulation</a></li>
+    </ul>
+
+    <!-- Zeolites -->
+    <h2>Zeolites</h2>
+    <p>
+      Reducing atmospheric CO₂ requires materials that can efficiently capture and store gases—and zeolites, nanoporous crystals with tunable structures, are among the most promising candidates. Their adsorption performance depends sensitively on both the crystal topology and the distribution of aluminum and silicon atoms, creating an enormous space of possible configurations that is too vast to explore experimentally or even through traditional simulations.
+    </p>
+    <p>
+      Our research introduces SymGNN, a symmetry-informed graph neural network that embeds the physical symmetries of crystalline materials directly into its architecture. By incorporating symmetry operations into message passing, SymGNN improves generalization across zeolite topologies and accurately predicts CO₂ adsorption isotherms and heats of adsorption—even for structures not seen during training. Beyond reproducing simulation data, the model can be used to analyze experimental adsorption measurements and infer underlying structural features, such as aluminum distributions. This approach demonstrates how physics-aware AI models can accelerate materials discovery and guide the inverse design of nanoporous materials for carbon capture and other sustainability applications.
+    </p>
+
+    <img src="{{ site.url }}{{ site.baseurl }}/images/projects/zeolites.png" alt="Zeolite symmetries" style="max-width: 75%; height: auto; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;"/>
+
+    <p><i>Relevant publications:</i></p>
+    <ul>
+      <!-- <li><a href="https://doi.org/10.1038/s41598-025-92566-9" style="color: #C81919;">Discovering interaction mechanisms in crowds via deep generative surrogate experiments</a></li> -->
+      <!-- <li><a href="https://doi.org/10.48550/arxiv.2305.14286" style="color: #C81919;">Equivariant Neural Simulators for Stochastic Spatiotemporal Dynamics</a></li> -->
+      <!-- <li><a href="https://doi.org/10.48550/arxiv.2505.18647" style="color: #C81919;">Flow Matching for Geometric Trajectory Simulation</a></li> -->
+    </ul>
+
+    <!-- Bifurcations -->
+    <h2>Bifurcations</h2>
+
+    <!-- Biology -->
+    <h2>Biology</h2>
+    <div style="text-align: center;">
+      <img src="/images/slider/deep-cellular-potts.png" alt="Deep Cellular Potts" width="600"/>
+      <img src="/images/slider/miRNA-arch.png" alt="microRNA decoding" width="600"/>
+    </div>
+    <p style="text-align: center;">Deep Cellular Potts &amp; MicroRNA decoding</p>
+
+    <!-- Fluid Mechanics -->
+    <h2>Fluid Mechanics</h2>
+    <p>[Bubble etc.]</p>
+
+    <!-- Pedestrians -->
+    <h2>Pedestrians</h2>
+    <p>[Not sure what field this would go under but deserves to be mentioned]</p>
+
+    <!-- Master Graduation Projects -->
+    <h1>Master Graduation Projects</h1>
+    <p>Our group regularly offers opportunities for exciting master projects. These fall under several ongoing umbrella projects.</p>
+
+    <h2>Umbrella project 1</h2>
+    <p>[description here]</p>
+
+    <h2>Umbrella project 2</h2>
+    <p>[description here]</p>
+
+    <h2>Examples of past projects</h2>
+    <p>[past projects here]</p>
+  </section>
+</main>
