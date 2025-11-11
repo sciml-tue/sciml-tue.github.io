@@ -1,9 +1,10 @@
 ---
 layout: member
-category: staff
+category: alumnus
 title: Yoeri Poels
 image: yoeri-poels.webp 
 role: PhD Researcher
+projects: Fusion
 permalink: 'team/yoeri-poels'
 social:
     linkedin: https://www.linkedin.com/
