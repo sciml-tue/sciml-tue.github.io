@@ -1,5 +1,99 @@
 [
   {
+    "title": "Wallpaper Group-Based Mechanical Metamaterials: Dataset Including Mechanical Responses",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc G. D.",
+        "family": "Geers"
+      },
+      {
+        "given": "Kevin",
+        "family": "Verbeek"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Scientific Data",
+    "DOI": "10.1038/s41597-025-06150-x",
+    "issued": {
+      "year": 2025,
+      "month_year": "November 2025",
+      "month_year_numeric": 202511
+    },
+    "source": "crossref",
+    "abstract": "Abstract\n                  Mechanical metamaterials often exhibit pattern transformations through instabilities, enabling applications in, e.g., soft robotics, sound reduction, and biomedicine. These transformations and their resulting mechanical properties are closely tied to the symmetries in these metamaterials’ microstructures, which remain under-explored. Designing such materials is challenging due to the unbounded design space, and while machine learning offers promising tools, they require extensive training data. Here, we present a large dataset of 2D microstructures and their macroscopic mechanical responses in the hyperelastic, finite-strain regime, including buckling. The microstructures are generated using a novel method, which covers all 17 wallpaper symmetry groups and employs Bézier curves for a rich parametric space. Mechanical responses are obtained through finite element-based computational homogenization. The dataset includes 1,020 distinct geometries, each subjected to 12 loading trajectories, totaling 12,240 trajectories. Our dataset supports the development and benchmarking of surrogate models, facilitates the study of symmetry-property relationships, and enables investigations into symmetry-breaking during pattern transformations, potentially revealing emergent behavior in mechanical metamaterials."
+  },
+  {
+    "title": "Micellangelo: a Generative Model of Cell-Topography Interactions",
+    "author": [
+      {
+        "given": "Nikita",
+        "family": "Konshin"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Jan",
+        "family": "de Boer"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "",
+    "DOI": "10.1101/2025.11.24.690184",
+    "issued": {
+      "year": 2025,
+      "month_year": "November 2025",
+      "month_year_numeric": 202511
+    },
+    "source": "crossref",
+    "abstract": "Abstract\n                Understanding how materials influence cell behavior is central to biomaterial engineering, yet experimental approaches are limited by throughput and complexity. Here, we present Micellangelo, a generative AI model that simulates high-resolution fluorescence images of cells cultured on micro-topographical surfaces. By conditioning on surface topographies, Micellangelo generates realistic cell morphologies, enabling in silico exploration of cell–material interactions. We fabricated a dataset of human dermal fibroblasts stained for DNA, F-actin, and the mechanosensitive transcription factor YAP across ten distinct topographies. Micellangelo was trained using the flow matching framework, and demonstrated strong visual and quantitative alignment with real microscopy data in terms of morphology, intensity patterns, and mechanotransductive features. Beyond image generation, we demonstrate two proof-of-concept in silico experiments: tuning the strength of topographical conditioning and perturbing subcellular structures to assess phenotypic consequences. The model captures both topography-induced morphological trends and structure–function relationships such as actin–YAP coupling. These results suggest that Micellangelo functions as a digital twin of experimental cell imaging, taking a step towards a scalable platform for hypothesis generation, virtual screening, and design of biomaterial interfaces. This work bridges the fields of biomaterials and generative modeling, and introduces a generalizable framework for conducting biologically meaningful in silico experiments.\n                \n                  Significance Statement\n                  \n                    Experimental discovery in biomaterials is limited by the time and cost of testing thousands of material designs.\n                    Micellangelo\n                    bridges this gap by generating realistic fluorescence images of cells cultured on engineered surface topographies, creating a digital twin of cell–material interactions. By simulating how cells respond to diverse micro-architectures, this approach enables hypothesis generation and virtual screening before laboratory validation. Integrating generative AI with biomaterials research opens a scalable route toward data-driven design of functional interfaces and accelerates understanding of the physical cues governing cell behavior."
+  },
+  {
+    "title": "Efficient Probabilistic Modeling of Crystallization at Mesoscopic Scale",
+    "author": [
+      {
+        "given": "Pol",
+        "family": "Timmer"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-032-05461-6_1",
+    "issued": {
+      "year": 2025,
+      "month_year": "October 2025",
+      "month_year_numeric": 202510
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
     "title": "Acquisition, quality control, and architecture of a large image dataset as a tool for in silico cell biological research",
     "author": [
       {
@@ -43,10 +137,109 @@
     "DOI": "10.1016/j.mtbio.2025.102352",
     "issued": {
       "year": 2025,
-      "month_year": "December 2025"
+      "month_year": "September 2025",
+      "month_year_numeric": 202509
     },
     "source": "crossref",
     "abstract": null
+  },
+  {
+    "title": "Equivariant Flow Matching for Symmetry-Breaking Bifurcation Problems",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc G. D.",
+        "family": "Geers"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2509.03340",
+    "issued": {
+      "year": 2025,
+      "month_year": "September 2025",
+      "month_year_numeric": 202509
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc",
+        "family": "Geers"
+      },
+      {
+        "given": "Kevin",
+        "family": "Verbeek"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.17160963",
+    "issued": {
+      "year": 2025,
+      "month_year": "September 2025",
+      "month_year_numeric": 202509
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Towards Fully Automated Molecular Simulations: Multi-Agent Framework for Simulation Setup and Force Field Extraction",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2509.10210",
+    "issued": {
+      "year": 2025,
+      "month_year": "September 2025",
+      "month_year_numeric": 202509
+    },
+    "source": "datacite",
+    "abstract": ""
   },
   {
     "title": "Plasma state monitoring and disruption characterization using multimodal VAEs",
@@ -92,7 +285,8 @@
     "DOI": "10.1088/1741-4326/adf121",
     "issued": {
       "year": 2025,
-      "month_year": "August 2025"
+      "month_year": "July 2025",
+      "month_year_numeric": 202507
     },
     "source": "crossref",
     "abstract": "Abstract\n               When a plasma disrupts in a tokamak, significant heat and electromagnetic loads are deposited onto the surrounding device components. These forces scale with plasma current and magnetic field strength, making disruptions one of the key challenges for future devices. Unfortunately, disruptions are not fully understood, with many different underlying causes that are difficult to anticipate. Data-driven models have shown success in predicting them, but they only provide limited interpretability. On the other hand, large-scale statistical analyses have been a great asset to understanding disruptive patterns. In this paper, we leverage data-driven methods to find an interpretable representation of the plasma state for disruption characterization. Specifically, we use a latent variable model to represent diagnostic measurements as a low-dimensional, latent representation. We build upon the Variational Autoencoder framework, and extend it for (1) continuous projections of plasma trajectories; (2) a multimodal structure to separate operating regimes; and (3) separation with respect to disruptive regimes. Subsequently, we can identify continuous indicators for the disruption rate and the disruptivity based on statistical properties of measurement data. The proposed method is demonstrated using a dataset of approximately 1600 TCV discharges, selecting for flat-top disruptions or regular terminations. We evaluate the method with respect to (1) the identified disruption risk and its correlation with other plasma properties; (2) the ability to distinguish different types of disruptions; and (3) downstream analyses. For the latter, we conduct a demonstrative study on identifying parameters connected to disruptions using counterfactual-like analysis. Overall, the method can adequately identify distinct operating regimes characterized by varying proximity to disruptions in an interpretable manner."
@@ -125,10 +319,71 @@
     "DOI": "10.1088/1741-4326/adf349",
     "issued": {
       "year": 2025,
-      "month_year": "July 2025"
+      "month_year": "July 2025",
+      "month_year_numeric": 202507
     },
     "source": "crossref",
     "abstract": "Abstract\n               Maximizing fusion performance in tokamaks relies on high energy confinement, often achieved through distinct operating regimes. The automated labeling of these confinement states is crucial to enable large-scale analyses or for real-time control applications. While this task becomes difficult to automate near state transitions or in marginal scenarios, much success has been achieved with data-driven models. However, these methods generally provide predictions as point estimates, and cannot adequately deal with missing and/or broken input signals. To enable wide-range applicability, we develop methods for confinement state classification with uncertainty quantification and model robustness. We focus on off-line analysis for TCV discharges, distinguishing L-mode, H-mode, and an in-between dithering phase (D). We propose ensembling data-driven methods on two axes: model formulations and feature sets. The former considers a dynamic formulation based on a recurrent Fourier Neural Operator-architecture and a static formulation based on gradient-boosted decision trees. These models are trained using multiple feature groupings categorized by diagnostic system or physical quantity. A dataset of 302 TCV discharges is fully labeled, and we release it publicly to encourage the community to build upon this work. We evaluate our method quantitatively using Cohen's kappa coefficient for predictive performance and the Expected Calibration Error for the uncertainty calibration. Furthermore, we discuss performance using a variety of common and alternative scenarios, the performance of individual components, out-of-distribution performance, cases of broken or missing signals, and evaluate conditionally-averaged behavior around different state transitions. Overall, the proposed method can distinguish L, D and H-mode with high performance, can cope with missing or broken signals, and provides meaningful uncertainty estimates."
+  },
+  {
+    "title": "Symmetry-informed graph neural networks for carbon dioxide isotherm and adsorption prediction in aluminum-substituted zeolites",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "José-Manuel",
+        "family": "Vicent Luna"
+      },
+      {
+        "given": "Elīza Beate",
+        "family": "Dinne"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "Journal of Materials Chemistry A",
+    "DOI": "10.1039/d5ta02482j",
+    "issued": {
+      "year": 2025,
+      "month_year": "May 2025",
+      "month_year_numeric": 202505
+    },
+    "source": "crossref",
+    "abstract": "SymGNN leverages crystal symmetries to improve adsorption predictions in zeolites. By encoding symmetry-aware features, the model achieves accurate isotherm and heat of adsorption predictions, even for unseen topologies."
+  },
+  {
+    "title": "Flow Matching for Geometric Trajectory Simulation",
+    "author": [
+      {
+        "given": "Kiet Bennema ten",
+        "family": "Brinke"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2505.18647",
+    "issued": {
+      "year": 2025,
+      "month_year": "May 2025",
+      "month_year_numeric": 202505
+    },
+    "source": "datacite",
+    "abstract": ""
   },
   {
     "title": "Similarity equivariant graph neural networks for homogenization of metamaterials",
@@ -158,7 +413,8 @@
     "DOI": "10.1016/j.cma.2025.117867",
     "issued": {
       "year": 2025,
-      "month_year": "May 2025"
+      "month_year": "March 2025",
+      "month_year_numeric": 202503
     },
     "source": "crossref",
     "abstract": null
@@ -191,574 +447,11 @@
     "DOI": "10.1038/s41598-025-92566-9",
     "issued": {
       "year": 2025,
-      "month_year": "March 2025"
+      "month_year": "March 2025",
+      "month_year_numeric": 202503
     },
     "source": "crossref",
     "abstract": null
-  },
-  {
-    "title": "Acquisition, Quality Control, and Architecture of a Large Image Dataset as a Tool for in Silico Cell Biological Research",
-    "author": [
-      {
-        "given": "Nikita",
-        "family": "Konshin"
-      },
-      {
-        "given": "Marta",
-        "family": "Valverde"
-      },
-      {
-        "given": "Danila",
-        "family": "Solodennikov"
-      },
-      {
-        "given": "Koen",
-        "family": "Minartz"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Anne Metje van",
-        "family": "Genderen"
-      },
-      {
-        "given": "Shantanu",
-        "family": "Singh"
-      },
-      {
-        "given": "Silvia",
-        "family": "Mihaila"
-      },
-      {
-        "given": "Jan",
-        "family": "de Boer"
-      }
-    ],
-    "container-title": "",
-    "DOI": "10.2139/ssrn.5367160",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "crossref",
-    "abstract": null
-  },
-  {
-    "title": "VADA: A Data-Driven Simulator for Nanopore Sequencing",
-    "author": [
-      {
-        "given": "Jonas",
-        "family": "Niederle"
-      },
-      {
-        "given": "Simon",
-        "family": "Koop"
-      },
-      {
-        "given": "Marc",
-        "family": "Pagès-Gallego"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      }
-    ],
-    "container-title": "Lecture Notes in Computer Science",
-    "DOI": "10.1007/978-3-031-78977-9_13",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "crossref",
-    "abstract": null
-  },
-  {
-    "title": "Symmetry-informed graph neural networks for carbon dioxide isotherm and adsorption prediction in aluminum-substituted zeolites",
-    "author": [
-      {
-        "given": "Marko",
-        "family": "Petković"
-      },
-      {
-        "given": "José-Manuel",
-        "family": "Vicent Luna"
-      },
-      {
-        "given": "Elīza Beate",
-        "family": "Dinne"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Sofía",
-        "family": "Calero"
-      }
-    ],
-    "container-title": "Journal of Materials Chemistry A",
-    "DOI": "10.1039/d5ta02482j",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "crossref",
-    "abstract": "SymGNN leverages crystal symmetries to improve adsorption predictions in zeolites. By encoding symmetry-aware features, the model achieves accurate isotherm and heat of adsorption predictions, even for unseen topologies."
-  },
-  {
-    "title": "Efficient Probabilistic Modeling of Crystallization at Mesoscopic Scale",
-    "author": [
-      {
-        "given": "Pol",
-        "family": "Timmer"
-      },
-      {
-        "given": "Koen",
-        "family": "Minartz"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      }
-    ],
-    "container-title": "Lecture Notes in Computer Science",
-    "DOI": "10.1007/978-3-032-05461-6_1",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "crossref",
-    "abstract": null
-  },
-  {
-    "title": "Wallpaper Group-Based Mechanical Metamaterials: Dataset Including Mechanical Responses",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc G. D.",
-        "family": "Geers"
-      },
-      {
-        "given": "Kevin",
-        "family": "Verbeek"
-      },
-      {
-        "given": "Ondřej",
-        "family": "Rokoš"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2507.11195",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc",
-        "family": "Geers"
-      },
-      {
-        "given": "Kevin",
-        "family": "Verbeek"
-      },
-      {
-        "given": "Ondřej",
-        "family": "Rokoš"
-      }
-    ],
-    "container-title": "Zenodo",
-    "DOI": "10.5281/zenodo.15849549",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc",
-        "family": "Geers"
-      },
-      {
-        "given": "Kevin",
-        "family": "Verbeek"
-      },
-      {
-        "given": "Ondřej",
-        "family": "Rokoš"
-      }
-    ],
-    "container-title": "Zenodo",
-    "DOI": "10.5281/zenodo.17160963",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Towards Fully Automated Molecular Simulations: Multi-Agent Framework for Simulation Setup and Force Field Extraction",
-    "author": [
-      {
-        "given": "Marko",
-        "family": "Petković"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Sofía",
-        "family": "Calero"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2509.10210",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Equivariant Flow Matching for Symmetry-Breaking Bifurcation Problems",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Ondřej",
-        "family": "Rokoš"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc G. D.",
-        "family": "Geers"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2509.03340",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc",
-        "family": "Geers"
-      },
-      {
-        "given": "Kevin",
-        "family": "Verbeek"
-      },
-      {
-        "given": "Ondřej",
-        "family": "Rokoš"
-      }
-    ],
-    "container-title": "Zenodo",
-    "DOI": "10.5281/zenodo.16089509",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc",
-        "family": "Geers"
-      },
-      {
-        "given": "Kevin",
-        "family": "Verbeek"
-      },
-      {
-        "given": "Ondřej",
-        "family": "Rokoš"
-      }
-    ],
-    "container-title": "Zenodo",
-    "DOI": "10.5281/zenodo.15977256",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc",
-        "family": "Geers"
-      },
-      {
-        "given": "Kevin",
-        "family": "Verbeek"
-      },
-      {
-        "given": "Ondřej",
-        "family": "Rokoš"
-      }
-    ],
-    "container-title": "Zenodo",
-    "DOI": "10.5281/zenodo.15849550",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Flow Matching for Geometric Trajectory Simulation",
-    "author": [
-      {
-        "given": "Kiet Bennema ten",
-        "family": "Brinke"
-      },
-      {
-        "given": "Koen",
-        "family": "Minartz"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2505.18647",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Plasma State Monitoring and Disruption Characterization using Multimodal VAEs",
-    "author": [
-      {
-        "given": "Yoeri",
-        "family": "Poels"
-      },
-      {
-        "given": "Alessandro",
-        "family": "Pau"
-      },
-      {
-        "given": "Christian",
-        "family": "Donner"
-      },
-      {
-        "given": "Giulio",
-        "family": "Romanelli"
-      },
-      {
-        "given": "Olivier",
-        "family": "Sauter"
-      },
-      {
-        "given": "Cristina",
-        "family": "Venturini"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "the TCV",
-        "family": "team"
-      },
-      {
-        "given": "the WPTE",
-        "family": "team"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2504.17710",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Symmetry-Informed Graph Neural Networks for Carbon Dioxide Isotherm and Adsorption Prediction in Aluminum-Substituted Zeolites",
-    "author": [
-      {
-        "given": "Marko",
-        "family": "Petković"
-      },
-      {
-        "given": "José-Manuel Vicent",
-        "family": "Luna"
-      },
-      {
-        "given": "El\\=ıza Beate",
-        "family": "Dinne"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Sofía",
-        "family": "Calero"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2503.22737",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Robust Confinement State Classification with Uncertainty Quantification through Ensembled Data-Driven Methods",
-    "author": [
-      {
-        "given": "Yoeri",
-        "family": "Poels"
-      },
-      {
-        "given": "Cristina",
-        "family": "Venturini"
-      },
-      {
-        "given": "Alessandro",
-        "family": "Pau"
-      },
-      {
-        "given": "Olivier",
-        "family": "Sauter"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "the TCV",
-        "family": "team"
-      },
-      {
-        "given": "the WPTE",
-        "family": "team"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2502.17397",
-    "issued": {
-      "year": 2025,
-      "month_year": "2025"
-    },
-    "source": "datacite",
-    "abstract": ""
   },
   {
     "title": "Deep Neural Cellular Potts Models",
@@ -792,188 +485,41 @@
     "DOI": "10.48550/arxiv.2502.02129",
     "issued": {
       "year": 2025,
-      "month_year": "2025"
+      "month_year": "February 2025",
+      "month_year_numeric": 202502
     },
     "source": "datacite",
     "abstract": ""
   },
   {
-    "title": "Description Generation Using Variational Auto-Encoders for Precursor microRNA",
+    "title": "VADA: A Data-Driven Simulator for Nanopore Sequencing",
     "author": [
       {
-        "given": "Marko",
-        "family": "Petković"
+        "given": "Jonas",
+        "family": "Niederle"
+      },
+      {
+        "given": "Simon",
+        "family": "Koop"
+      },
+      {
+        "given": "Marc",
+        "family": "Pagès-Gallego"
       },
       {
         "given": "Vlado",
         "family": "Menkovski"
-      }
-    ],
-    "container-title": "Entropy",
-    "DOI": "10.3390/e26110921",
-    "issued": {
-      "year": 2024,
-      "month_year": "October 2024"
-    },
-    "source": "crossref",
-    "abstract": "Micro RNAs (miRNA) are a type of non-coding RNA involved in gene regulation and can be associated with diseases such as cancer, cardiovascular, and neurological diseases. As such, identifying the entire genome of miRNA can be of great relevance. Since experimental methods for novel precursor miRNA (pre-miRNA) detection are complex and expensive, computational detection using Machine Learning (ML) could be useful. Existing ML methods are often complex black boxes that do not create an interpretable structural description of pre-miRNA. In this paper, we propose a novel framework that makes use of generative modeling through Variational Auto-Encoders to uncover the generative factors of pre-miRNA. After training the VAE, the pre-miRNA description is developed using a decision tree on the lower dimensional latent space. Applying the framework to miRNA classification, we obtain a high reconstruction and classification performance while also developing an accurate miRNA description."
-  },
-  {
-    "title": "Graph Neural Networks for Carbon Dioxide Adsorption Prediction in Aluminum-Substituted Zeolites",
-    "author": [
-      {
-        "given": "Marko",
-        "family": "Petković"
-      },
-      {
-        "given": "José Manuel",
-        "family": "Vicent-Luna"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Sofía",
-        "family": "Calero"
-      }
-    ],
-    "container-title": "ACS Applied Materials &amp; Interfaces",
-    "DOI": "10.1021/acsami.4c12198",
-    "issued": {
-      "year": 2024,
-      "month_year": "October 2024"
-    },
-    "source": "crossref",
-    "abstract": null
-  },
-  {
-    "title": "Equivariant Parameter Sharing for Porous Crystalline Materials",
-    "author": [
-      {
-        "given": "Marko",
-        "family": "Petković"
-      },
-      {
-        "given": "Pablo",
-        "family": "Romero Marimon"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Sofía",
-        "family": "Calero"
       }
     ],
     "container-title": "Lecture Notes in Computer Science",
-    "DOI": "10.1007/978-3-031-58547-0_11",
+    "DOI": "10.1007/978-3-031-78977-9_13",
     "issued": {
-      "year": 2024,
-      "month_year": "2024"
+      "year": 2025,
+      "month_year": "January 2025",
+      "month_year_numeric": 202501
     },
     "source": "crossref",
     "abstract": null
-  },
-  {
-    "title": "Mechanical Metamaterial: Square Array of Circular Holes Under Deformation",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Ondrej",
-        "family": "Rokos"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc",
-        "family": "Geers"
-      }
-    ],
-    "container-title": "Zenodo",
-    "DOI": "10.5281/zenodo.14229618",
-    "issued": {
-      "year": 2024,
-      "month_year": "2024"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Mechanical Metamaterial: Square Array of Circular Holes Under Deformation",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Ondrej",
-        "family": "Rokos"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc",
-        "family": "Geers"
-      }
-    ],
-    "container-title": "Zenodo",
-    "DOI": "10.5281/zenodo.14229619",
-    "issued": {
-      "year": 2024,
-      "month_year": "2024"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Similarity Equivariant Graph Neural Networks for Homogenization of Metamaterials",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc G. D.",
-        "family": "Geers"
-      },
-      {
-        "given": "Ondřej",
-        "family": "Rokoš"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2404.17365",
-    "issued": {
-      "year": 2024,
-      "month_year": "2024"
-    },
-    "source": "datacite",
-    "abstract": ""
   },
   {
     "title": "Understanding complex crowd dynamics with generative neural simulators",
@@ -1003,96 +549,70 @@
     "DOI": "10.48550/arxiv.2412.01491",
     "issued": {
       "year": 2024,
-      "month_year": "2024"
+      "month_year": "December 2024",
+      "month_year_numeric": 202412
     },
     "source": "datacite",
     "abstract": ""
   },
   {
-    "title": "Accelerating Simulation of Two-Phase Flows with Neural PDE Surrogates",
+    "title": "Mechanical Metamaterial: Square Array of Circular Holes Under Deformation",
     "author": [
       {
-        "given": "Yoeri",
-        "family": "Poels"
+        "given": "Fleur",
+        "family": "Hendriks"
       },
       {
-        "given": "Koen",
-        "family": "Minartz"
-      },
-      {
-        "given": "Harshit",
-        "family": "Bansal"
+        "given": "Ondrej",
+        "family": "Rokos"
       },
       {
         "given": "Vlado",
         "family": "Menkovski"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2405.17260",
-    "issued": {
-      "year": 2024,
-      "month_year": "2024"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "VADA: a Data-Driven Simulator for Nanopore Sequencing",
-    "author": [
-      {
-        "given": "Jonas",
-        "family": "Niederle"
       },
       {
-        "given": "Simon",
-        "family": "Koop"
+        "given": "Martin",
+        "family": "Doškář"
       },
       {
         "given": "Marc",
-        "family": "Pagès-Gallego"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
+        "family": "Geers"
       }
     ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2404.08722",
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.14229618",
     "issued": {
       "year": 2024,
-      "month_year": "2024"
+      "month_year": "November 2024",
+      "month_year_numeric": 202411
     },
     "source": "datacite",
     "abstract": ""
   },
   {
-    "title": "Efficient Probabilistic Modeling of Crystallization at Mesoscopic Scale",
+    "title": "Description Generation Using Variational Auto-Encoders for Precursor microRNA",
     "author": [
       {
-        "given": "Pol",
-        "family": "Timmer"
-      },
-      {
-        "given": "Koen",
-        "family": "Minartz"
+        "given": "Marko",
+        "family": "Petković"
       },
       {
         "given": "Vlado",
         "family": "Menkovski"
       }
     ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2405.16608",
+    "container-title": "Entropy",
+    "DOI": "10.3390/e26110921",
     "issued": {
       "year": 2024,
-      "month_year": "2024"
+      "month_year": "October 2024",
+      "month_year_numeric": 202410
     },
-    "source": "datacite",
-    "abstract": ""
+    "source": "crossref",
+    "abstract": "Micro RNAs (miRNA) are a type of non-coding RNA involved in gene regulation and can be associated with diseases such as cancer, cardiovascular, and neurological diseases. As such, identifying the entire genome of miRNA can be of great relevance. Since experimental methods for novel precursor miRNA (pre-miRNA) detection are complex and expensive, computational detection using Machine Learning (ML) could be useful. Existing ML methods are often complex black boxes that do not create an interpretable structural description of pre-miRNA. In this paper, we propose a novel framework that makes use of generative modeling through Variational Auto-Encoders to uncover the generative factors of pre-miRNA. After training the VAE, the pre-miRNA description is developed using a decision tree on the lower dimensional latent space. Applying the framework to miRNA classification, we obtain a high reconstruction and classification performance while also developing an accurate miRNA description."
   },
   {
-    "title": "Graph Neural Networks for Carbon Dioxide Adsorption Prediction in Aluminium-Exchanged Zeolites",
+    "title": "Graph Neural Networks for Carbon Dioxide Adsorption Prediction in Aluminum-Substituted Zeolites",
     "author": [
       {
         "given": "Marko",
@@ -1111,80 +631,15 @@
         "family": "Calero"
       }
     ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2403.12659",
+    "container-title": "ACS Applied Materials &amp; Interfaces",
+    "DOI": "10.1021/acsami.4c12198",
     "issued": {
       "year": 2024,
-      "month_year": "2024"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Fast dynamic 1D simulation of divertor plasmas with neural PDE surrogates",
-    "author": [
-      {
-        "given": "Yoeri",
-        "family": "Poels"
-      },
-      {
-        "given": "Gijs",
-        "family": "Derks"
-      },
-      {
-        "given": "Egbert",
-        "family": "Westerhof"
-      },
-      {
-        "given": "Koen",
-        "family": "Minartz"
-      },
-      {
-        "given": "Sven",
-        "family": "Wiesen"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      }
-    ],
-    "container-title": "Nuclear Fusion",
-    "DOI": "10.1088/1741-4326/acf70d",
-    "issued": {
-      "year": 2023,
-      "month_year": "September 2023"
+      "month_year": "October 2024",
+      "month_year_numeric": 202410
     },
     "source": "crossref",
-    "abstract": "Abstract\n               Managing divertor plasmas is crucial for operating reactor scale tokamak devices due to heat and particle flux constraints on the divertor target. Simulation is an important tool to understand and control these plasmas, however, for real-time applications or exhaustive parameter scans only simple approximations are currently fast enough. We address this lack of fast simulators using neural partial differential equation (PDE) surrogates, data-driven neural network-based surrogate models trained using solutions generated with a classical numerical method. The surrogate approximates a time-stepping operator that evolves the full spatial solution of a reference physics-based model over time. We use DIV1D, a 1D dynamic model of the divertor plasma, as reference model to generate data. DIV1D’s domain covers a 1D heat flux tube from the X-point (upstream) to the target. We simulate a realistic TCV divertor plasma with dynamics induced by upstream density ramps and provide an exploratory outlook towards fast transients. State-of-the-art neural PDE surrogates are evaluated in a common framework and extended for properties of the DIV1D data. We evaluate (1) the speed-accuracy trade-off; (2) recreating non-linear behavior; (3) data efficiency; and (4) parameter inter- and extrapolation. Once trained, neural PDE surrogates can faithfully approximate DIV1D’s divertor plasma dynamics at sub real-time computation speeds: In the proposed configuration, \n                     \n                     \n                        \n                           \n                              2\n                           \n                        \n                     \n                   ms of plasma dynamics can be computed in \n                     \n                     \n                        \n                           ≈\n                        \n                        \n                           \n                              0.63\n                           \n                        \n                     \n                   ms of wall-clock time, several orders of magnitude faster than DIV1D."
-  },
-  {
-    "title": "Equivariant Neural Simulators for Stochastic Spatiotemporal Dynamics",
-    "author": [
-      {
-        "given": "Koen",
-        "family": "Minartz"
-      },
-      {
-        "given": "Yoeri",
-        "family": "Poels"
-      },
-      {
-        "given": "Simon",
-        "family": "Koop"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2305.14286",
-    "issued": {
-      "year": 2023,
-      "month_year": "2023"
-    },
-    "source": "datacite",
-    "abstract": ""
+    "abstract": null
   },
   {
     "title": "Fast dynamic 1D simulation of divertor plasmas with neural PDE surrogates",
@@ -1217,18 +672,27 @@
     "container-title": "Nuclear fusion 63(12)",
     "DOI": "10.34734/fzj-2024-02947",
     "issued": {
-      "year": 2023,
-      "month_year": "2023"
+      "year": 2024,
+      "month_year": "May 2024",
+      "month_year_numeric": 202405
     },
     "source": "datacite",
     "abstract": ""
   },
   {
-    "title": "Description Generation using Variational Auto-Encoders for precursor microRNA",
+    "title": "Accelerating Simulation of Two-Phase Flows with Neural PDE Surrogates",
     "author": [
       {
-        "given": "Marko",
-        "family": "Petković"
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Harshit",
+        "family": "Bansal"
       },
       {
         "given": "Vlado",
@@ -1236,16 +700,17 @@
       }
     ],
     "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2311.17970",
+    "DOI": "10.48550/arxiv.2405.17260",
     "issued": {
-      "year": 2023,
-      "month_year": "2023"
+      "year": 2024,
+      "month_year": "May 2024",
+      "month_year_numeric": 202405
     },
     "source": "datacite",
     "abstract": ""
   },
   {
-    "title": "Equivariant Parameter Sharing for Porous Crystalline Materials",
+    "title": "Equivariant Parameter Sharing for Porous Crystalline Materials",
     "author": [
       {
         "given": "Marko",
@@ -1253,48 +718,71 @@
       },
       {
         "given": "Pablo",
-        "family": "Romero-Marimon"
+        "family": "Romero Marimon"
       },
       {
         "given": "Vlado",
         "family": "Menkovski"
       },
       {
-        "given": "Sofia",
+        "given": "Sofía",
+        "family": "Calero"
+      }
+    ],
+    "container-title": "Lecture Notes in Computer Science",
+    "DOI": "10.1007/978-3-031-58547-0_11",
+    "issued": {
+      "year": 2024,
+      "month_year": "April 2024",
+      "month_year_numeric": 202404
+    },
+    "source": "crossref",
+    "abstract": null
+  },
+  {
+    "title": "Graph Neural Networks for Carbon Dioxide Adsorption Prediction in Aluminium-Exchanged Zeolites",
+    "author": [
+      {
+        "given": "Marko",
+        "family": "Petković"
+      },
+      {
+        "given": "José Manuel",
+        "family": "Vicent-Luna"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Sofía",
         "family": "Calero"
       }
     ],
     "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2304.01628",
+    "DOI": "10.48550/arxiv.2403.12659",
     "issued": {
-      "year": 2023,
-      "month_year": "2023"
+      "year": 2024,
+      "month_year": "March 2024",
+      "month_year_numeric": 202403
     },
     "source": "datacite",
     "abstract": ""
   },
   {
-    "title": "Fast Dynamic 1D Simulation of Divertor Plasmas with Neural PDE Surrogates",
+    "title": "Equivariant Neural Simulators for Stochastic Spatiotemporal Dynamics",
     "author": [
-      {
-        "given": "Yoeri",
-        "family": "Poels"
-      },
-      {
-        "given": "Gijs",
-        "family": "Derks"
-      },
-      {
-        "given": "Egbert",
-        "family": "Westerhof"
-      },
       {
         "given": "Koen",
         "family": "Minartz"
       },
       {
-        "given": "Sven",
-        "family": "Wiesen"
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Simon",
+        "family": "Koop"
       },
       {
         "given": "Vlado",
@@ -1302,10 +790,37 @@
       }
     ],
     "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2305.18944",
+    "DOI": "10.48550/arxiv.2305.14286",
     "issued": {
       "year": 2023,
-      "month_year": "2023"
+      "month_year": "May 2023",
+      "month_year_numeric": 202305
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
+    "title": "Towards Learned Simulators for Cell Migration",
+    "author": [
+      {
+        "given": "Koen",
+        "family": "Minartz"
+      },
+      {
+        "given": "Yoeri",
+        "family": "Poels"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2210.01123",
+    "issued": {
+      "year": 2022,
+      "month_year": "October 2022",
+      "month_year_numeric": 202210
     },
     "source": "datacite",
     "abstract": ""
@@ -1338,7 +853,8 @@
     "DOI": "10.1007/978-3-031-01333-1_27",
     "issued": {
       "year": 2022,
-      "month_year": "2022"
+      "month_year": "April 2022",
+      "month_year_numeric": 202204
     },
     "source": "crossref",
     "abstract": null
@@ -1359,55 +875,10 @@
     "DOI": "10.1007/978-3-031-01333-1_19",
     "issued": {
       "year": 2022,
-      "month_year": "2022"
+      "month_year": "April 2022",
+      "month_year_numeric": 202204
     },
     "source": "crossref",
     "abstract": null
-  },
-  {
-    "title": "Towards Learned Simulators for Cell Migration",
-    "author": [
-      {
-        "given": "Koen",
-        "family": "Minartz"
-      },
-      {
-        "given": "Yoeri",
-        "family": "Poels"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2210.01123",
-    "issued": {
-      "year": 2022,
-      "month_year": "2022"
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "VAE-CE: Visual Contrastive Explanation using Disentangled VAEs",
-    "author": [
-      {
-        "given": "Yoeri",
-        "family": "Poels"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      }
-    ],
-    "container-title": "arXiv",
-    "DOI": "10.48550/arxiv.2108.09159",
-    "issued": {
-      "year": 2021,
-      "month_year": "2021"
-    },
-    "source": "datacite",
-    "abstract": ""
   }
 ]

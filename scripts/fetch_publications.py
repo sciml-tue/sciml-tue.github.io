@@ -63,15 +63,14 @@ def get_datacite_works():
 def extract_crossref_data(item):
     """Extract publication data from Crossref format"""
     # Extract date info
-    date_parts = item.get("issued", {}).get("date-parts", [[None]])
-    year = date_parts[0][0] if date_parts and date_parts[0] else None
-    month = None
-    if len(date_parts[0]) > 1:
-        month = date_parts[0][1]
+    created = item.get("created", {}).get("date-time", "")
+    date = datetime.strptime(created, "%Y-%m-%dT%H:%M:%SZ") if created else None
+    year, month = (date.year, date.month) if date else (None, None)
 
     # Format month+year nicely
     month_name = datetime(1900, month, 1).strftime("%B") if month else None
     month_year = f"{month_name} {year}" if month_name else str(year)
+    month_year_numeric = int(f"{year}{month:02d}") if year and month else None
 
     # Extract authors
     authors = []
@@ -108,7 +107,11 @@ def extract_crossref_data(item):
         "author": authors,
         "container-title": item.get("container-title", [""])[0],
         "DOI": item.get("DOI", ""),
-        "issued": {"year": year, "month_year": month_year},
+        "issued": {
+            "year": year,
+            "month_year": month_year,
+            "month_year_numeric": month_year_numeric,
+        },
         "source": "crossref",
         "abstract": abstract_text,
     }
@@ -119,29 +122,12 @@ def extract_datacite_data(item):
     attributes = item.get("attributes", {})
 
     # Extract date info
-    publication_year = attributes.get("publicationYear")
-    published = attributes.get("published")
-
-    year = publication_year
-    month = None
-
-    # Try to extract month from published date if available
-    if published:
-        try:
-            date_obj = datetime.strptime(published, "%Y-%m-%d")
-            month = date_obj.month
-            year = date_obj.year
-        except (ValueError, TypeError):
-            try:
-                date_obj = datetime.strptime(published, "%Y-%m")
-                month = date_obj.month
-                year = date_obj.year
-            except (ValueError, TypeError):
-                pass
-
-    # Format month+year nicely
+    created = attributes.get("created", "")
+    date = datetime.strptime(created, "%Y-%m-%dT%H:%M:%SZ") if created else None
+    year, month = (date.year, date.month) if date else (None, None)
     month_name = datetime(1900, month, 1).strftime("%B") if month else None
     month_year = f"{month_name} {year}" if month_name else str(year) if year else "Unknown"
+    month_year_numeric = int(f"{year}{month:02d}") if year and month else None
 
     # Extract authors
     authors = []
@@ -209,7 +195,11 @@ def extract_datacite_data(item):
         "author": authors,
         "container-title": container_title,
         "DOI": doi,
-        "issued": {"year": year, "month_year": month_year},
+        "issued": {
+            "year": year,
+            "month_year": month_year,
+            "month_year_numeric": month_year_numeric,
+        },
         "source": "datacite",
         "abstract": abstract,
     }
@@ -370,24 +360,21 @@ def main():
             else:
                 publications_by_title[normalized_title] = pub
 
-    # Merge both dictionaries (DOI takes priority)
     final_publications = {}
 
-    # Add all DOI-based publications
-    for doi, pub in publications_by_doi.items():
-        final_publications[doi if doi else normalize_title(pub["title"])] = pub
-
-    # Add title-based publications that don't have DOIs
+    # Add title-based publications
     for title, pub in publications_by_title.items():
-        if not pub["DOI"]:
-            final_publications[title] = pub
+        final_publications[title] = pub
 
     # Convert to list
     publications = list(final_publications.values())
 
     # Sort by year (most recent first)
     publications.sort(
-        key=lambda x: x["issued"]["year"] if x["issued"]["year"] else 0, reverse=True
+        key=lambda x: x["issued"]["month_year_numeric"]
+        if x["issued"]["month_year_numeric"]
+        else 0,
+        reverse=True,
     )
 
     print("\n📊 Summary:")
