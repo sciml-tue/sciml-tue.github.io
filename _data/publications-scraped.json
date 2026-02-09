@@ -1,5 +1,43 @@
 [
   {
+    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
+    "author": [
+      {
+        "given": "Fleur",
+        "family": "Hendriks"
+      },
+      {
+        "given": "Vlado",
+        "family": "Menkovski"
+      },
+      {
+        "given": "Martin",
+        "family": "Doškář"
+      },
+      {
+        "given": "Marc",
+        "family": "Geers"
+      },
+      {
+        "given": "Kevin",
+        "family": "Verbeek"
+      },
+      {
+        "given": "Ondřej",
+        "family": "Rokoš"
+      }
+    ],
+    "container-title": "Zenodo",
+    "DOI": "10.5281/zenodo.18172947",
+    "issued": {
+      "year": 2026,
+      "month_year": "January 2026",
+      "month_year_numeric": 202601
+    },
+    "source": "datacite",
+    "abstract": ""
+  },
+  {
     "title": "Wallpaper Group-Based Mechanical Metamaterials: Dataset Including Mechanical Responses",
     "author": [
       {
@@ -65,7 +103,7 @@
       "month_year_numeric": 202511
     },
     "source": "crossref",
-    "abstract": "Abstract\n                Understanding how materials influence cell behavior is central to biomaterial engineering, yet experimental approaches are limited by throughput and complexity. Here, we present Micellangelo, a generative AI model that simulates high-resolution fluorescence images of cells cultured on micro-topographical surfaces. By conditioning on surface topographies, Micellangelo generates realistic cell morphologies, enabling in silico exploration of cell–material interactions. We fabricated a dataset of human dermal fibroblasts stained for DNA, F-actin, and the mechanosensitive transcription factor YAP across ten distinct topographies. Micellangelo was trained using the flow matching framework, and demonstrated strong visual and quantitative alignment with real microscopy data in terms of morphology, intensity patterns, and mechanotransductive features. Beyond image generation, we demonstrate two proof-of-concept in silico experiments: tuning the strength of topographical conditioning and perturbing subcellular structures to assess phenotypic consequences. The model captures both topography-induced morphological trends and structure–function relationships such as actin–YAP coupling. These results suggest that Micellangelo functions as a digital twin of experimental cell imaging, taking a step towards a scalable platform for hypothesis generation, virtual screening, and design of biomaterial interfaces. This work bridges the fields of biomaterials and generative modeling, and introduces a generalizable framework for conducting biologically meaningful in silico experiments.\n                \n                  Significance Statement\n                  \n                    Experimental discovery in biomaterials is limited by the time and cost of testing thousands of material designs.\n                    Micellangelo\n                    bridges this gap by generating realistic fluorescence images of cells cultured on engineered surface topographies, creating a digital twin of cell–material interactions. By simulating how cells respond to diverse micro-architectures, this approach enables hypothesis generation and virtual screening before laboratory validation. Integrating generative AI with biomaterials research opens a scalable route toward data-driven design of functional interfaces and accelerates understanding of the physical cues governing cell behavior."
+    "abstract": "Understanding how materials influence cell behavior is central to biomaterial engineering, yet experimental approaches are limited by throughput and complexity. Here, we present Micellangelo, a generative AI model that simulates high-resolution fluorescence images of cells cultured on micro-topographical surfaces. By conditioning on surface topographies, Micellangelo generates realistic cell morphologies, enabling in silico exploration of cell–material interactions. We fabricated a dataset of human dermal fibroblasts stained for DNA, F-actin, and the mechanosensitive transcription factor YAP across ten distinct topographies. Micellangelo was trained using the flow matching framework, and demonstrated strong visual and quantitative alignment with real microscopy data in terms of morphology, intensity patterns, and mechanotransductive features. Beyond image generation, we demonstrate two proof-of-concept in silico experiments: tuning the strength of topographical conditioning and perturbing subcellular structures to assess phenotypic consequences. The model captures both topography-induced morphological trends and structure–function relationships such as actin–YAP coupling. These results suggest that Micellangelo functions as a digital twin of experimental cell imaging, taking a step towards a scalable platform for hypothesis generation, virtual screening, and design of biomaterial interfaces. This work bridges the fields of biomaterials and generative modeling, and introduces a generalizable framework for conducting biologically meaningful in silico experiments."
   },
   {
     "title": "Efficient Probabilistic Modeling of Crystallization at Mesoscopic Scale",
@@ -169,44 +207,6 @@
     ],
     "container-title": "arXiv",
     "DOI": "10.48550/arxiv.2509.03340",
-    "issued": {
-      "year": 2025,
-      "month_year": "September 2025",
-      "month_year_numeric": 202509
-    },
-    "source": "datacite",
-    "abstract": ""
-  },
-  {
-    "title": "Wallpaper Group-Based Mechanical Metamaterials and their Mechanical Responses",
-    "author": [
-      {
-        "given": "Fleur",
-        "family": "Hendriks"
-      },
-      {
-        "given": "Vlado",
-        "family": "Menkovski"
-      },
-      {
-        "given": "Martin",
-        "family": "Doškář"
-      },
-      {
-        "given": "Marc",
-        "family": "Geers"
-      },
-      {
-        "given": "Kevin",
-        "family": "Verbeek"
-      },
-      {
-        "given": "Ondřej",
-        "family": "Rokoš"
-      }
-    ],
-    "container-title": "Zenodo",
-    "DOI": "10.5281/zenodo.17160963",
     "issued": {
       "year": 2025,
       "month_year": "September 2025",
@@ -360,7 +360,7 @@
     "abstract": "SymGNN leverages crystal symmetries to improve adsorption predictions in zeolites. By encoding symmetry-aware features, the model achieves accurate isotherm and heat of adsorption predictions, even for unseen topologies."
   },
   {
-    "title": "Flow Matching for Geometric Trajectory Simulation",
+    "title": "STFlow: Data-Coupled Flow Matching for Geometric Trajectory Simulation",
     "author": [
       {
         "given": "Kiet Bennema ten",

@@ -1,6 +1,6 @@
 ---
 layout: member
-category: staff
+category: alumnus
 title: Koen Minartz
 image: koen-minartz.webp 
 role: PhD Researcher
