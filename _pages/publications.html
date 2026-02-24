@@ -16,30 +16,30 @@ permalink: /publications/
         {% for publi in publist %}
         <a href="https://doi.org/{{ publi.DOI }}" style="color: inherit; text-decoration: none;">
             <div class="panel-body">
-            <div class="row align-items-center">
-                
-                <!-- Left column: paper details -->
-                <!-- title -->
-                <b style="font-size: 17px;">"{{ publi.title }}"</b><br>
+                <div class="row align-items-center">
 
-                <!-- authors -->
-                {% for author in publi.author %}
+                    <!-- Left column: paper details -->
+                    <!-- title -->
+                    <b style="font-size: 16px;">{{ publi.title }}</b><br>
+
+                    <!-- authors -->
+                    {% for author in publi.author %}
                     {% if author.given != "" and author.family != "" %}
                     {{ author.given }} {{ author.family }}{% unless forloop.last %}, {% endunless %}
                     {% endif %}
-                {% endfor %} <br>
+                    {% endfor %} <br>
 
-                <!-- container -->
-                <i>{{ publi.container-title }}</i>
+                    <!-- container -->
+                    <i>{{ publi.container-title }}</i>
 
-                <!-- issued date -->
-                ({{ publi.issued.month_year }}) <br>
-                </a>
-
-                </div>
-
-            </div>
-        {% endfor %}
+                    <!-- issued date -->
+                    ({{ publi.issued.month_year }}) <br>
+        </a>
 
     </div>
+
+</div>
+{% endfor %}
+
+</div>
 </div>

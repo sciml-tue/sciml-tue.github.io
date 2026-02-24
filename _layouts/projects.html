@@ -9,7 +9,67 @@ permalink: /projects/
 <main class="page-content">
   <section class="content-section">
     <h1>Projects</h1>
-    <p>Below we present the projects that we are currently working on in our group.</p>
+    <p>Below are some projects that we are currently working on in our group.</p>
+
+    <h2>Data-Coupled Flow Matching</h2>
+    <p>
+      Understanding and simulating complex dynamical systems is a central theme of our research.
+      Many scientific and societal systems, ranging from interacting particles in physics and
+      molecular dynamics to groups of humans navigating shared spaces can be described as geometric
+      trajectories of multiple interacting entities. These systems are difficult to
+      model as they exhibit strong coupling between agents, multi-scale temporal structure and
+      sensitivity to perturbations At the same time, practical simulators benefit from being
+      probabilistic, capturing uncertainty and multimodality while being computationally efficient
+      at scale. Our work investigates how modern generative modeling, in particular flow
+      matching-based methods, can be adapted to respect the structure of these systems while
+      avoiding the inefficiencies of autoregressive rollouts and uninformed Gaussian priors.
+    </p>
+    <p>
+      We are currently researching data-coupled generative priors for
+      conditional trajectory simulation. Rather than initializing generative models just from
+      generic Gaussian noise, we construct informed priors that are directly conditioned on observed
+      initial
+      frames, embedding basic dynamical structure such as continuity and inertia. This reduces the
+      transport cost between prior and target trajectory distributions, simplifies the learned
+      vector fields, and enables accurate simulation with very few integration steps. This line of
+      work has demonstrated state-of-the-art accuracy and improved scaling on
+      benchmarks in N-body physics, molecular dynamics, and human trajectory forecasting. More
+      broadly, our work is trying to advance a principled view of prior design in conditional
+      generative modeling for dynamical systems, aiming to build scalable, symmetry-aware simulators
+      that generalize across domains and temporal horizons.
+    </p>
+
+    <div class="stflow-figures"
+      style="display:flex; justify-content:center; gap:20px; align-items:stretch; flex-wrap:wrap; margin-top: 20px;">
+
+      <figure style="margin:0; max-width:38%; display:flex; flex-direction:column;">
+        <img
+          src="{{ site.url }}{{ site.baseurl }}/images/animations/spatiotemporal_graph_denoising_animation.gif"
+          alt="Metamaterial sample" style="width:100%; height:auto; display:block;" />
+        <figcaption
+          style="font-size:15px; text-align:center; font-style:italic; margin-top:auto; padding-top:15px;">
+          Denoising animation from predictions of STFlow on an N-Body gravitational system
+        </figcaption>
+      </figure>
+
+      <figure style="margin: 20px 0 0 0; max-width:50%; display:flex; flex-direction:column;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/projects/STFlow.svg"
+          alt="STFlow architecture" style="width:100%; height:auto; display:block;" />
+        <figcaption
+          style="font-size:15px; text-align:center; font-style:italic; margin-top:auto; padding-top:15px;">
+          Model architecture of Spatio-Temporal Flow (<a
+            href="https://doi.org/10.48550/arXiv.2505.18647" style="color:#C81919">paper</a>),
+          describing a permutation-equivariant and convolution-based flow matching model
+        </figcaption>
+      </figure>
+
+    </div>
+
+    <p><i>Relevant publication:</i></p>
+    <ul>
+      <li><a href="https://doi.org/10.48550/arXiv.2505.18647" style="color: #C81919;">STFlow:
+          Data-Coupled Flow Matching for Geometric Trajectory Simulation</a></li>
+    </ul>
 
     <!-- Mechanical Metamaterials -->
     <h2>Mechanical Metamaterials</h2>
@@ -50,7 +110,7 @@ permalink: /projects/
         <figcaption
           style="font-size: 15px; text-align: center; font-style: italic; margin-top: 5px;">
           Buckling behavior of different mechanical metamaterials under compression. \(\mathbf{F}\)
-          is the macroscopic deformation gradient.
+          is the macroscopic deformation gradient
         </figcaption>
       </figure>
     </div>
@@ -165,6 +225,20 @@ permalink: /projects/
           Parameter Sharing for Porous Crystalline Materials</a></li>
     </ul>
 
+
+    <!-- Fluid Mechanics -->
+    <!-- <h2>Bifurcations, Bubbly Flows or Spatiotemporal Dynamics</h2> -->
+    <!-- <p></p> -->
+
+    <!-- Master Graduation Projects -->
+    <h2>Master Graduation Projects</h2>
+    <p>Our group regularly offers opportunities for exciting Master projects. If you are an
+      interested Master student at the TU/e, here is the <a
+        href="https://dai.win.tue.nl/masterprojects/?group=6">list of updated available Master
+        projects.</a></p>
+
+
+    <h1 style="margin-top: 60px;">Past Projects</h1>
     <!-- Biology -->
     <h2>Cellular Potts</h2>
     <p>
@@ -208,7 +282,6 @@ permalink: /projects/
         </figcaption>
       </figure>
     </div>
-
     <p><i>Relevant publications:</i></p>
     <ul>
       <li><a href="https://doi.org/10.48550/arxiv.2502.02129" style="color: #C81919;">Deep Neural
@@ -221,20 +294,5 @@ permalink: /projects/
           Learned Simulators for Cell Migration</a></li>
 
     </ul>
-
-
-    <!-- Fluid Mechanics -->
-    <h2>Bifurcations, Bubbly Flows or Spatiotemporal Dynamics</h2>
-    <p></p>
-
-    <!-- Master Graduation Projects -->
-    <h2>Master Graduation Projects</h2>
-    <p>Our group regularly offers opportunities for exciting Master projects. If you are an
-      interested Master student at the TU/e, here is the <a
-        href="https://dai.win.tue.nl/masterprojects/?group=6">list of updated available Master
-        projects.</a></p>
-
-
-    <h1>Past Projects</h1>
   </section>
 </main>

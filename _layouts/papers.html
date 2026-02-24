@@ -5,33 +5,32 @@ layout: default
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">
 
-    {% assign publist = site.data.publications | reverse %}
+        {% assign publist = site.data.publications | reverse %}
 
-    {% for publi in publist %}
+        {% for publi in publist %}
         <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;">
-            <!-- authors -->
-            {% assign authors = "" | split:"/" %}
-            {% for author in publi.author %}
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{forloop.index}}"
+                style="color: inherit;">
+                <!-- authors -->
+                {% assign authors = "" | split:"/" %}
+                {% for author in publi.author %}
                 {% assign authors = authors | push: author.family %}
-            {% endfor %}
-            {{ authors | array_to_sentence_string }},
+                {% endfor %}
+                {{ authors | array_to_sentence_string }},
 
-            <!-- title with link -->
-            "{{ publi.title }}",
+                <!-- title with link -->
+                {{ publi.title }},
 
-            <!-- container -->
-            <b>{{ publi.container-title }}</b>
+                <!-- container -->
+                <b>{{ publi.container-title }}</b>
 
-            <!-- issued date -->
-            ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+                <!-- issued date -->
+                ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
 
-            <!-- DOI -->
-            {% if publi.DOI %}
+                <!-- DOI -->
+                {% if publi.DOI %}
                 <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %}
+                {% endif %}
             </a>
         </div>
 
@@ -40,9 +39,9 @@ layout: default
                 <p>{{ publi.abstract }}</p>
 
                 <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
-                   role="button" target="blank">Link</a>
+                    role="button" target="blank">Link</a>
             </div>
         </div>
-    {% endfor %}
+        {% endfor %}
     </div>
 </div>
